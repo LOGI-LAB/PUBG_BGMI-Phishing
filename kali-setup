@@ -158,7 +158,7 @@ echo
 echo -e "\e[92m[+] Setting up Online Hacking Game Tool \e[m "
 echo
 cp -R phs /usr/bin
-cp -R onlinehacking-pubg /usr/bin
+cp -R kali-oh-pubg /usr/bin
 ###########XXXXXXXXXXXXX####################
 #     JUST LEARNING KEEP SUPPORTING        #
 ############XXXXXXXXXXXX####################
