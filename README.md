@@ -15,7 +15,7 @@
 
 <p align="center">
 
-<img src="https://i.ibb.co/MRKpZXJ/images-2021-03-02-T210907-691.jpg" alt="images-2021-03-02-T210907-691" border="0"></a>
+![unnamed (2)](https://1.bp.blogspot.com/-_PpGY-YxDW8/YD3OSDOE-PI/AAAAAAAAFQ8/Wqro4aRUMAAPid8GiQjD0XLx12IQbdnsgCLcBGAsYHQ/s1280/500034600110_255557.jpg)
 
 </p>
 
@@ -85,12 +85,10 @@ $ rm -rf PUBG-Phishing && git clone https://github.com/OnlineHacKing/PUBG-Phishi
 
 ### 📸 SCREENSHOTS [Termux]
 
-<br>
 <p align="center">
 
-<img src="https://i.ibb.co/x3Kqpfv/IMG-20210302-214026.jpg" alt="IMG-20210302-214026" border="0">
-<img src="https://i.ibb.co/svwMNw7/IMG-20210302-214042.jpg" alt="IMG-20210302-214042" border="0">
-<img src="https://i.ibb.co/0K2f8R2/IMG-20210302-214117.jpg" alt="IMG-20210302-214117" border="0">
+![unnamed (2)](https://1.bp.blogspot.com/-1duV0a_FaK0/YD3fmEdRx_I/AAAAAAAAFRI/bxRkb0NxhzIuWgIlyBy960yMRBUuifNrgCPcBGAYYCw/s1627/Screenshot_20210302-105125202%257E2.jpg)
+
 </p>
 
 ## 👨🏻‍💻 CONNECT WITH US :
