@@ -24,7 +24,7 @@
 
 PUBG-PHISING IS A PHISING TOOL WICH IS USED TO PHISH A PUBG ACCOUNT OF YOUR VICTIM. This tool works on both rooted Android device and Non-rooted Android device.
 
-## AVAILABLE ON :
+### AVAILABLE ON :
 
 * Termux
 
@@ -40,7 +40,7 @@ PUBG-PHISING IS A PHISING TOOL WICH IS USED TO PHISH A PUBG ACCOUNT OF YOUR VICT
 
 * ngrok token
 
-## FEATURES :
+### FEATURES :
 
 * [+] Real hacking of Account !
 
@@ -88,6 +88,7 @@ $ rm -rf PUBG-Phishing && git clone https://github.com/OnlineHacKing/PUBG-Phishi
 <p align="center">
 
 ![unnamed (2)](https://1.bp.blogspot.com/-1duV0a_FaK0/YD3fmEdRx_I/AAAAAAAAFRI/bxRkb0NxhzIuWgIlyBy960yMRBUuifNrgCPcBGAYYCw/s1627/Screenshot_20210302-105125202%257E2.jpg)
+![unnamed (2)]()
 
 </p>
 
