@@ -2,7 +2,7 @@
 clear
 echo 
 echo 
-echo -e "\e[1;33m[\e[0m\e[1;77m~\e[0m\e[1;33m]\e[0m\e[1;32m Installing The Game Phishing Tool Please Wait....  - Onine Hacking \e[0m"
+echo -e "\e[1;33m[\e[0m\e[1;77m~\e[0m\e[1;33m]\e[0m\e[1;32m Installing The Game Phishing Tool Please Wait....  - \e[95m Onine Hacking \e[0m"
 echo
 termux-setup-storage
 pkg update -y > /dev/null 2>&1
