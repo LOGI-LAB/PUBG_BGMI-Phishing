@@ -50,7 +50,16 @@ echo -e $'\e[1;91m\e[0m\e[1;33m\e[0m\e[1;90m\e[0m\e[1;92m !!    Installation Suc
 echo -e $'\e[1;91m\e[0m\e[1;33m\e[0m\e[1;96m\e[0m\e[1;92m  ---------------------------------   \e[1;91m\e[0m'
 sleep 4
 clear
-
-
+echo
+echo -e "\e[92m[+] Setting up Online Hacking Game Tool  \e[m "
+echo 
+###########XXXXXXXXXXXXX####################
+#     JUST LEARNING KEEP SUPPORTING        #
+############XXXXXXXXXXXX####################
+echo -e "\e[92m[+] To run the tool from anywhere simply type :\e[93m ./OnlineHacking-Phishing.sh \e[m "
+echo 
+#####################################
+#           THANKYOU                #
+#####################################
 
 
