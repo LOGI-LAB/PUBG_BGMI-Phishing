@@ -2,14 +2,22 @@
 clear
 echo ""
 echo ""
-printf "\e[100;330m[\e[10m **** ]\e[1;40m\e[10m OnlineHacking :\e[1;32m Join Telegram Channel and Website  !\e[0m"
+printf "\e[100;330m[\e[10m **** ]\e[1;40m\e[10m OnlineHacking :\e[1;32m Join Telegram Channel @OnlineHacking  !\e[0m"
 sleep 4
 echo ""
 clear
 echo ""
 echo ""
 echo ""
-read -p $'\e[1;40m\e[96m E D U C A T I O N A l  P U R P O S E S  O N L Y ? \e[1;91m (Y/N) : \e[0m' option
+echo 
+echo -e "\e[31m[\e[32m★\e[31m]\e[32m This Tool is only educational purpose and we are not responsible for kind of illegal activity done by this tool\e[m "
+sleep 2
+echo ""
+echo ""
+echo -en "\e[31m[\e[32m*\e[31m]\e[32m Accepted This Notice (y/n)? \e[m "
+read ans
+if [ "$ans" != "${ans#[Yy]}" ]; then
+echo ""
 echo""
 echo""
 echo""
@@ -57,7 +65,29 @@ echo ""
                            link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
                            echo ""
                            echo ""
-                           cat /OnlineHacking/secnhack
+                           echo -e "\e[92m
+SUMAN ©\e[34m
+         ██████╗ ███╗   ██╗██╗     ██╗███╗   ██╗███████╗    
+        ██╔═══██╗████╗  ██║██║     ██║████╗  ██║██╔════╝    
+        ██║   ██║██╔██╗ ██║██║     ██║██╔██╗ ██║█████╗      
+        ██║   ██║██║╚██╗██║██║     ██║██║╚██╗██║██╔══╝      
+        ╚██████╔╝██║ ╚████║███████╗██║██║ ╚████║███████╗    
+         ╚═════╝ ╚═╝  ╚═══╝╚══════╝╚═╝╚═╝  ╚═══╝╚══════╝    
+                                                            
+    ██╗  ██╗ █████╗  ██████╗██╗  ██╗██╗███╗   ██╗ ██████╗   
+    ██║  ██║██╔══██╗██╔════╝██║ ██╔╝██║████╗  ██║██╔════╝   
+    ███████║███████║██║     █████╔╝ ██║██╔██╗ ██║██║  ███╗  
+    ██╔══██║██╔══██║██║     ██╔═██╗ ██║██║╚██╗██║██║   ██║  
+    ██║  ██║██║  ██║╚██████╗██║  ██╗██║██║ ╚████║╚██████╔╝  
+    ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝   
+ONLINE HACKING			  
+							  							  
+          \e[m"
+echo -e " \e[36mWebsite : \e[0m\e[92mwww.onlinehacking.xyz \e[0m\n"
+  
+echo -e " \e[31mGitHub : \e[0m\e[93mhttps://github.com/OnlineHacKing \e[0m\n"
+
+echo -e " \e[97mTelegram : \e[0m\e[34mhttps://telegram.dog/OnlineHacKing \e[0m\n"
                            echo -e "\e[96m========================\e[92m VICTIM INFORMATION \e[96m========================= \e[93m"  
 			   echo ""
 			   echo -e "\e[96m========================\e[92m    SUMAN © 2021    \e[96m=========================\e[92m"
