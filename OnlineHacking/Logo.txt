@@ -2,6 +2,11 @@
  Dude Just Select Any Option
 ---------------------------- > > >
 
-[01] Free UC Buy OH        [12] Lucky Spin OH      [23] BonusChallenge Free Gift OH     
-
-                           [99] Exit
+   [01] Free UC Buy OH             
+   
+      [02] Lucky Spin OH 
+                          
+         [03] BonusChallenge Free Gift OH     
+   
+   
+            [99] Exit
