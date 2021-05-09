@@ -9,15 +9,7 @@ clear
 echo ""
 echo ""
 echo ""
-echo 
-echo -e "\e[31m[\e[32m★\e[31m]\e[32m This Tool is only educational purpose and we are not responsible for kind of illegal activity done by this tool\e[m "
-sleep 2
-echo ""
-echo ""
-echo -en "\e[31m[\e[32m*\e[31m]\e[32m Accepted This Notice (y/n)? \e[m "
-read ans
-if [ "$ans" != "${ans#[Yy]}" ]; then
-echo ""
+read -p $'\e[1;40m\e[96m E D U C A T I O N A l  P U R P O S E S  O N L Y ? \e[1;91m (Y/N) : \e[0m' option
 echo""
 echo""
 echo""
