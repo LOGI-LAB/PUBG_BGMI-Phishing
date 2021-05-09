@@ -60,7 +60,7 @@ cp -R onlinehacking-pubg /data/data/com.termux/files/usr/bin
 ###########XXXXXXXXXXXXX####################
 #     JUST LEARNING KEEP SUPPORTING        #
 ############XXXXXXXXXXXX####################
-echo -e "\e[92m[+] To run the tool from anywhere simply type :\e[32m onlinehacking-pubg \e[m "
+echo -e "\e[92m[+] To run the tool from anywhere simply type :\e[93m onlinehacking-pubg \e[m "
 echo 
 #####################################
 #           THANKYOU                #
