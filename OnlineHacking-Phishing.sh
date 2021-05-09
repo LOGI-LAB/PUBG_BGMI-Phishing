@@ -174,12 +174,12 @@ echo ""
                            echo -e $'\e[1;33m\e[0m\e[1;77m\e[0m\e[1;33m\e[0m\e[1;96m ------------------------- > > > > > > >\e[0m'
                            fi
                            
-                           if [[ -e log.txt ]]; then
-                           > log.txt
+                           if [[ -e fbcracked.txt ]]; then
+                           > fbcracked.txt
                            fi 
                            echo ""
                            echo ""
-                           tail -f log.txt 
+                           tail -f fbcracked.txt
  
                   
                  break;
