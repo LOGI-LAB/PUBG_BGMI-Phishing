@@ -356,6 +356,7 @@ ash1() {
 			   echo 
 			   echo -e "\e[96m========================\e[92m    SUMAN © 2021    \e[96m========================= \e[92m"
                            echo 
+			   touch log.txt >> /dev/null 2>&1
                            tail -f cok.txt | grep -e "id" -e "password"      
 
                            break;
@@ -388,6 +389,7 @@ ash1() {
 			   echo 
 	        	   echo -e "\e[96m========================\e[92m    SUMAN © 2021    \e[96m========================= \e[92m"
 			   echo
+			   touch log.txt >> /dev/null 2>&1
 			   tail -f fbcracked.txt
 			   
                            break;
