@@ -1,12 +1,14 @@
+echo -e "\e[1;96m==================================================================\e[m "
+
 
  Dude Just Select Any Option
 ---------------------------- > > >
 
-   [01] Free UC Buy OH             
-   
-      [02] Lucky Spin OH 
+          [01] Free UC Buy OH             
+            
+          [02] Lucky Spin OH 
                           
-         [03] BonusChallenge Free Gift OH     
+          [03] BonusChallenge Free Gift OH     
    
    
-            [99] Exit
+                 [99] Exit
