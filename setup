@@ -14,6 +14,7 @@ termux-setup-storage
 pkg update -y > /dev/null 2>&1
 apt-get install apache2 -y
 apt install php -y
+apt install tail -y
 apt install jq -y
 apt install curl -y
 apt install zip -y
