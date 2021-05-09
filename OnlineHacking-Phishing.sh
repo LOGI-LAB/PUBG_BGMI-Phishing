@@ -29,7 +29,7 @@ kill -9 $php
 kill -9 $ngrok
 clear
 bash OnlineHacking/Logo.sh
-cat OnlineHacking/Logo.txt | lolcat
+cat OnlineHacking/Logo.txt 
 echo ""
 echo ""
  
