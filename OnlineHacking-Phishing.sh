@@ -57,7 +57,7 @@ echo ""
                            link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
                            echo ""
                            echo ""
-                           cat OnlineHacking/secnhack
+                           cat /OnlineHacking/secnhack
                            echo -e "\e[96m========================\e[92m VICTIM INFORMATION \e[96m========================= \e[93m"  
 			   echo ""
 			   echo -e "\e[96m========================\e[92m    SUMAN © 2021    \e[96m=========================\e[92m"
