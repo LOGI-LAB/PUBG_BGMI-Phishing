@@ -2,7 +2,7 @@
 clear
 echo ""
 echo ""
-printf "\e[100;330m[\e[10m **** ]\e[1;40m\e[10m OnlineHacking :\e[1;32m Join Telegram Channel @OnlineHacking  !\e[0m"
+printf "\e[100;330m[\e[10m **** ]\e[1;40m\e[10m OnlineHacking :\e[1;32m Join Telegram Channel \e[1;33m @OnlineHacking  !\e[0m"
 sleep 4
 echo ""
 clear
