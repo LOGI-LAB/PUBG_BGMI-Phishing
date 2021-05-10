@@ -54,17 +54,19 @@ $token >> /dev/null 2>&1
 sleep 1
 clear
 echo
-echo -e "\e[36m[+] Setting up Online Hacking Game Tool  \e[m "
+echo -e "\e[35m[+] Setting up Online Hacking Game Tool  \e[m "
+echo 
+echo 
 echo 
 cp -R phs /data/data/com.termux/files/usr/bin
 cp -R onlinehacking-pubg /data/data/com.termux/files/usr/bin
 ###########XXXXXXXXXXXXX####################
 #     JUST LEARNING KEEP SUPPORTING        #
 ############XXXXXXXXXXXX####################
-echo -e "\e[35m[+] There are 2 Tool Script for Android \e[m "
+echo -e "\e[1m \e[36m[+] There are 2 Tool Script for Android \e[m \e[21"
 echo 
 echo 
-echo -e "\e[92m[+] To Run the tool 1 type :\e[93m onlinehacking-pubg \e[m "
+echo -e "\e[92m[+] \e[1m To Run the tool 1 type :\e[93m onlinehacking-pubg \e[m "
 echo 
 echo -e "\e[92m[+] To run the tool 2 type :\e[93m ./OnlineHacking-Phishing.sh \e[m "
 echo 
