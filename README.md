@@ -120,8 +120,13 @@ chmod +x *
 
 <br>
 <p align="center">
-<img width="50%" src=""/>
-<img width="45%" src=""/>
+<img width="45%" src="https://github.com/OnlineHacKing/PUBG-Phishing/raw/main/img/OnlineHacking-Suman-1-id.png"/>
+<img width="50%" src="https://github.com/OnlineHacKing/PUBG-Phishing/raw/main/img/OnlineHacking-Suman-2-id.png"/>
+</p>
+<br>
+<p align="center">
+<img width="35%" src="https://github.com/OnlineHacKing/PUBG-Phishing/raw/main/img/OnlineHacking-Suman-1-pass.png"/>
+<img width="50%" src="https://github.com/OnlineHacKing/PUBG-Phishing/raw/main/img/OnlineHacking-Suman-2-pass.png"/>
 </p>
 
 ## 👨🏻‍💻 CONNECT WITH US :
