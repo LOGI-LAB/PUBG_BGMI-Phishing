@@ -127,8 +127,14 @@ chmod +x *
 
 ## 👨🏻‍💻 CONNECT WITH US :
 
-[![Instagram](https://img.shields.io/badge/INSTAGRAM-FOLLOW-red?style=for-the-badge&logo=instagram)](https://instagram.com/suman333mondal_?igshid=175v9uifresgr)
 
+<a href="https://rebrand.ly/githubprof"><img title="Github" src="https://img.shields.io/badge/Online-hacking-brightgreen?style=for-the-badge&logo=github"></a>
+[![Instagram](https://img.shields.io/badge/INSTAGRAM-FOLLOW-red?style=for-the-badge&logo=instagram)](https://www.instagram.com/suman333mondal_/)
+[![Instagram](https://img.shields.io/badge/WEBSITE-VISIT-yellow?style=for-the-badge&logo=blogger)](https://www.onlinehacking.xyz)
+[![Instagram](https://img.shields.io/badge/LINKEDIN-CONNECT-red?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/sumam333mondal/)
+[![Instagram](https://img.shields.io/badge/FACEBOOK-LIKE-red?style=for-the-badge&logo=facebook)](https://fb.com/adminonlinehacking)
+[![Instagram](https://img.shields.io/badge/TELEGRAM-CHANNEL-red?style=for-the-badge&logo=telegram)](https://telegram.dog/OnlineHacking)
+<a href="https://www.youtube.com/channel/UC8pmZJAlagdZ7bb0TBlogYw"><img title="YouTube" src="https://img.shields.io/badge/YouTube-Online Hacking-red?style=for-the-badge&logo=Youtube"></a>
 
 
 # ■□■ ⚠ Warning ⚠ ■□■
