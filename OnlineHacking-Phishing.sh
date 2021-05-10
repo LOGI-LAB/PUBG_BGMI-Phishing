@@ -279,4 +279,4 @@ echo -e " \e[97mTelegram : \e[0m\e[34mhttps://telegram.dog/OnlineHacKing \e[0m\n
 		         sleep 2
                          exit
 		         fi
-                         done
+                         
