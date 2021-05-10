@@ -26,11 +26,28 @@ PUBG-PHISING IS A PHISING TOOL WICH IS USED TO PHISH A PUBG ACCOUNT OF YOUR VICT
 
 ### AVAILABLE ON :
 
-* Termux
+* Termux App
+
+* Kali Linux
+
+* Parrot OS
+
+* Ubuntu
+
+* Arch Linux
+
+* MAC
 
 ### TESTED ON :
 
-* Termux
+* Termux App
+
+* Kali Linux
+ 
+* Parrot OS
+ 
+* Ubuntu
+
 
 ### REQUIREMENTS :
 
@@ -39,6 +56,8 @@ PUBG-PHISING IS A PHISING TOOL WICH IS USED TO PHISH A PUBG ACCOUNT OF YOUR VICT
 * php
 
 * ngrok token
+
+* apache2
 
 ### FEATURES :
 
