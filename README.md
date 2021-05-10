@@ -69,37 +69,51 @@ PUBG-PHISING IS A PHISING TOOL WICH IS USED TO PHISH A PUBG ACCOUNT OF YOUR VICT
 
 * [+] Easy for Beginners !
 
-## ✅ INSTALLATION [Termux] :
+
+## ✅ INSTALLATION [ Android Termux ] :
 ```
 pkg update -y
-```
-```
+
 pkg upgrade -y
-```
-```
+
 pkg install git 
-```
-```
+
 git clone https://github.com/OnlineHacKing/PUBG-Phishing.git
-```
-```
+
 cd PUBG-Phishing
-```
-```
+
 chmod +x *
+
+./Andriod-Setup
 ```
-```
-./setup
-```
+There are 2 Tool Script for Android (Use Any Tool)
 ```
 onlinehacking-pubg
 ```
-Now Type onlinehacking-pubg Run Tool
+```
+./OnlineHacking-Phishing.sh
+```
 
-### ♻ Update Tool Command 
+
+## ✅ INSTALLATION [ Linux ] :
 ```
-$ rm -rf PUBG-Phishing && git clone https://github.com/OnlineHacKing/PUBG-Phishing.git && cd PUBG-Phishing && chmod +x * && ./setup 
+sudo apt update -y
+
+sudo apt upgrade -y
+
+sudo apt install git 
+
+git clone https://github.com/OnlineHacKing/PUBG-Phishing.git
+
+cd PUBG-Phishing
+
+chmod +x *
+
+./Linux-Setup
+
+./OnlineHacking-Phishing.sh
 ```
+
 
 
 ### 📸 SCREENSHOTS [Termux]
