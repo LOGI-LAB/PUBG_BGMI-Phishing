@@ -8,7 +8,7 @@
 
 </p>
 <p align="center">
-<a href="https://www.onlinehacking.xyz/2021/03/PUBG-Mobile-ID-Hack.html"><img title="Made in INDIA" src="https://img.shields.io/badge/Tool-PUBG_BGMI-Phishing-green.svg"></a>
+<a href="https://www.onlinehacking.xyz/2021/03/PUBG-Mobile-ID-Hack.html"><img title="Made in INDIA" src="https://img.shields.io/badge/Tool-PUBG_BGMI_Phishing-green.svg"></a>
 <a href="https://www.onlinehacking.xyz/2021/03/PUBG-Mobile-ID-Hack.html"><img title="Version" src="https://img.shields.io/badge/Version-2.4-green.svg?style=flat-square"></a>
 <a href="https://www.onlinehacking.xyz/2021/03/PUBG-Mobile-ID-Hack.html"><img title="Maintainence" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>
 </p>
@@ -85,9 +85,7 @@ cd PUBG_BGMI-Phishing
 chmod +x *
 
 ./Andriod-Setup
-```
-There are 2 Tool Script for Android (Use Any Tool)
-```
+
 ./OnlineHacking-Phishing
 ```
 
