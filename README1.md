@@ -15,7 +15,7 @@
 
 <p align="center">
 
-![unnamed (2)](https://1.bp.blogspot.com/-_PpGY-YxDW8/YD3OSDOE-PI/AAAAAAAAFQ8/Wqro4aRUMAAPid8GiQjD0XLx12IQbdnsgCLcBGAsYHQ/s1280/500034600110_255557.jpg)
+![unnamed (2)](https://github.com/OnlineHacKing/PUBG_BGMI-Phishing/raw/main/img/ONLINEHACKING-PUBG_BGMI.jpg)
 
 </p>
 
@@ -115,13 +115,12 @@ chmod +x *
 
 <br>
 <p align="center">
-<img width="45%" src="https://github.com/OnlineHacKing/PUBG-Phishing/raw/main/img/OnlineHacking-Suman-1-id.png"/>
-<img width="41%" src="https://github.com/OnlineHacKing/PUBG-Phishing/raw/main/img/OnlineHacking-Suman-1-pass.png"/>
+<img width="40%" src="https://github.com/OnlineHacKing/PUBG_BGMI-Phishing/raw/main/img/ONLINEHACKING-PUBG_BGMI1.jpg"/>
 </p>
 <br>
 <p align="center">
-<img width="40%" src="https://github.com/OnlineHacKing/PUBG-Phishing/raw/main/img/OnlineHacking-Suman-2-id.png"/>
-<img width="41%" src="https://github.com/OnlineHacKing/PUBG-Phishing/raw/main/img/OnlineHacking-Suman-2-pass.png"/>
+<img width="41%" src="https://github.com/OnlineHacKing/PUBG_BGMI-Phishing/raw/main/img/ONLINEHACKING-PUBG_BGMI2.jpg"/>
+<img width="40%" src="https://github.com/OnlineHacKing/PUBG_BGMI-Phishing/raw/main/img/ONLINEHACKING-PUBG_BGMI3.jpg"/>
 </p>
 
 
