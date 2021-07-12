@@ -22,7 +22,7 @@
 
 ## ABOUT TOOL :
 
-PUBG-PHISING IS A PHISING TOOL WICH IS USED TO PHISH A PUBG ACCOUNT OF YOUR VICTIM. This tool works on both rooted Android device and Non-rooted Android device.
+PUBG_BGMI-Phishing IS A PHISING TOOL WICH IS USED TO PHISH A PUBG ACCOUNT OF YOUR VICTIM. This tool works on both rooted Android device and Non-rooted Android device.
 
 ### AVAILABLE ON :
 
@@ -51,7 +51,7 @@ PUBG-PHISING IS A PHISING TOOL WICH IS USED TO PHISH A PUBG ACCOUNT OF YOUR VICT
 
 ### REQUIREMENTS :
 
-* internet
+* Fast internet
 
 * php
 
@@ -78,9 +78,9 @@ pkg upgrade -y
 
 pkg install git 
 
-git clone https://github.com/OnlineHacKing/PUBG-Phishing.git
+git clone https://github.com/OnlineHacKing/PUBG_BGMI-Phishing.git
 
-cd PUBG-Phishing
+cd PUBG_BGMI-Phishing
 
 chmod +x *
 
@@ -88,10 +88,7 @@ chmod +x *
 ```
 There are 2 Tool Script for Android (Use Any Tool)
 ```
-onlinehacking-pubg
-```
-```
-./OnlineHacking-Phishing.sh
+./OnlineHacking-Phishing
 ```
 
 
@@ -103,15 +100,15 @@ sudo apt upgrade -y
 
 sudo apt install git 
 
-git clone https://github.com/OnlineHacKing/PUBG-Phishing.git
+git clone https://github.com/OnlineHacKing/PUBG_BGMI-Phishing.git
 
-cd PUBG-Phishing
+cd PUBG_BGMI-Phishing
 
 chmod +x *
 
 ./Linux-Setup
 
-./OnlineHacking-Phishing.sh
+./OnlineHacking-Phishing
 ```
 
 
