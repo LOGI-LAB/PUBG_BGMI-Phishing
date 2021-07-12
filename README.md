@@ -1,4 +1,4 @@
-# PUBG_BGMI-Phishing
-PUBG Mobile ID Hack Phishing Tool For Online Hacking
+
+How to install and setup 
 
 Go to This Website : https://www.onlinehacking.xyz/PUBG-BGMI-Phishing-Hack-Termux
