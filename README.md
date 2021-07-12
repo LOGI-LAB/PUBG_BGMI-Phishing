@@ -1,6 +1,6 @@
-<h1 align="center">PUBG Mobile Phishing - OnlineHacking</h1>
+<h1 align="center">PUBG BGMI Phishing - OnlineHacking</h1>
 <p align="center">
-  PUBG ID Hack Use Termux
+  PUBG and BGMI ID Hack Use Termux
 </p>
 <p align="center">
 <a href="https://www.onlinehacking.xyz/2021/03/PUBG-Mobile-ID-Hack.html"><img title="Made in INDIA" src="https://img.shields.io/badge/MADE%20IN-INDIA-SCRIPT?colorA=%23ff8100&colorB=%23017e40&colorC=%23ff0000&style=for-the-badge"></a>
@@ -8,8 +8,8 @@
 
 </p>
 <p align="center">
-<a href="https://www.onlinehacking.xyz/2021/03/PUBG-Mobile-ID-Hack.html"><img title="Made in INDIA" src="https://img.shields.io/badge/Tool-PUBG_PHISHING-green.svg"></a>
-<a href="https://www.onlinehacking.xyz/2021/03/PUBG-Mobile-ID-Hack.html"><img title="Version" src="https://img.shields.io/badge/Version-2.2-green.svg?style=flat-square"></a>
+<a href="https://www.onlinehacking.xyz/2021/03/PUBG-Mobile-ID-Hack.html"><img title="Made in INDIA" src="https://img.shields.io/badge/Tool-PUBG_BGMI-Phishing-green.svg"></a>
+<a href="https://www.onlinehacking.xyz/2021/03/PUBG-Mobile-ID-Hack.html"><img title="Version" src="https://img.shields.io/badge/Version-2.4-green.svg?style=flat-square"></a>
 <a href="https://www.onlinehacking.xyz/2021/03/PUBG-Mobile-ID-Hack.html"><img title="Maintainence" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>
 </p>
 
