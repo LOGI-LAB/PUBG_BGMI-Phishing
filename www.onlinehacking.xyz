@@ -19,7 +19,6 @@ chmod +x pro
 fi
 
 
-
 if [[ $option == *'termux'* ]]; then
 clear
 pkg install wget -y
