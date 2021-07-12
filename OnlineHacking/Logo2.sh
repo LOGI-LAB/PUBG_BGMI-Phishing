@@ -23,16 +23,12 @@ printf "\e[1;31m\e[0m\e[1;92m\e[0m\e[1;31m \e[0m\e[1;37;44m\e[0m"
 echo
 printf "\e[1;31m\e[0m\e[1;92m\e[0m\e[1;31m \e[0m\e[1;37;44m\e[0m"  
 echo
-printf "\e[1;31m[\e[0m\e[1;92m50\e[0m\e[1;31m]   \e[1;32m How To Unlock Pro Version Choose 50 \e[0m  "
+printf "\e[1;31m[\e[0m\e[1;92m50\e[0m\e[1;31m]\e[1;32m How To Unlock Pro Version Choose 50 \e[0m  "
 echo
 printf "\e[1;31m\e[0m\e[1;92m\e[0m\e[1;31m \e[0m\e[1;37;44m\e[0m"  
 echo
 printf "\e[1;31m[\e[0m\e[1;92m99\e[0m\e[1;31m] \e[0m\e[1;33mExit\e[0m\n"
 echo " "
 echo -e "\e[1;96m================================================================== > > >\e[m "
-echo ""
-echo ""
-echo ""
-printf "\e[1;31m[\e[0m\e[1;92m50\e[0m\e[1;31m]   \e[1;32m How To Unlock Pro Version Choose 50 \e[0m  "
 echo ""
 echo ""
