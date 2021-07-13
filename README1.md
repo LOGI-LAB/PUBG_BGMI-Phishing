@@ -34,6 +34,8 @@ PUBG_BGMI-Phishing IS A PHISING TOOL WICH IS USED TO PHISH A PUBG ACCOUNT OF YOU
 
 * Ubuntu
 
+* Windeos
+
 * Arch Linux
 
 * MAC
@@ -47,6 +49,8 @@ PUBG_BGMI-Phishing IS A PHISING TOOL WICH IS USED TO PHISH A PUBG ACCOUNT OF YOU
 * Parrot OS
  
 * Ubuntu
+
+* Windeos
 
 
 ### REQUIREMENTS :
@@ -110,7 +114,12 @@ chmod +x *
 ```
 
 
+## ✅ INSTALLATION [ Windows ] :
 
+# <p align="center"> [![Open in Cloud Shell](https://user-images.githubusercontent.com/27065646/92304704-8d146d80-ef80-11ea-8c29-0deaabb1c702.png)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/OnlineHacKing/PUBG_BGMI-Phishing&tutorial=README.md)
+
+  
+  
 ### 📸 SCREENSHOTS [Termux]
 
 <br>
