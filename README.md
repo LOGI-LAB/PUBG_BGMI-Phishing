@@ -94,7 +94,7 @@ cd PUBG_BGMI-Phishing
 
 chmod +x *
 
-./Andriod-Setup
+./Android-Setup
 
 ./OnlineHacking-Phishing
 ```
