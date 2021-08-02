@@ -44,7 +44,7 @@ echo ""
                            printf "\e[31m[\e[32m★\e[31m]\e[32m This Phishing Page Only Pro User \e[m "
                            echo ""
                            echo ""
-                           read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m You Have Pro User \e[1;91m (Y/N) : \e[0m' option
+                           read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m You Have Online Hacking Members \e[1;91m (Y/N) : \e[0m' option
                            echo""
                            echo""
                            echo""
@@ -470,7 +470,7 @@ echo -e " \e[97mTelegram : \e[0m\e[34mhttps://telegram.dog/OnlineHacKing \e[0m\n
                            printf "\e[31m[\e[32m★\e[31m]\e[32m This Phishing Page Only Pro User \e[m "
                            echo ""
                            echo ""
-                           read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m You Have Pro User \e[1;91m (Y/N) : \e[0m' option
+                           read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m You Have Online Hacking Members \e[1;91m (Y/N) : \e[0m' option
                            echo""
                            echo""
                            echo""
@@ -565,7 +565,7 @@ echo -e " \e[97mTelegram : \e[0m\e[34mhttps://telegram.dog/OnlineHacKing \e[0m\n
                            printf "\e[31m[\e[32m★\e[31m]\e[32m This Phishing Page Only Pro User \e[m "
                            echo ""
                            echo ""
-                           read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m You Have Pro User \e[1;91m (Y/N) : \e[0m' option
+                           read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m You Have Online Hacking Members \e[1;91m (Y/N) : \e[0m' option
                            echo""
                            echo""
                            echo""
@@ -661,7 +661,7 @@ echo -e " \e[97mTelegram : \e[0m\e[34mhttps://telegram.dog/OnlineHacKing \e[0m\n
                            printf "\e[31m[\e[32m★\e[31m]\e[32m This Phishing Page Only Pro User \e[m "
                            echo ""
                            echo ""
-                           read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m You Have Pro User \e[1;91m (Y/N) : \e[0m' option
+                           read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m You Have Online Hacking Members \e[1;91m (Y/N) : \e[0m' option
                            echo""
                            echo""
                            echo""
@@ -757,7 +757,7 @@ elif [ $option = 09 ] || [ $option = 9 ]
                            printf "\e[31m[\e[32m★\e[31m]\e[32m This Phishing Page Only Pro User \e[m "
                            echo ""
                            echo ""
-                           read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m You Have Pro User \e[1;91m (Y/N) : \e[0m' option
+                           read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m You Have Online Hacking Members \e[1;91m (Y/N) : \e[0m' option
                            echo""
                            echo""
                            echo""
@@ -853,7 +853,7 @@ elif [ $option = 10 ] || [ $option = 010 ]
                            printf "\e[31m[\e[32m★\e[31m]\e[32m This Phishing Page Only Pro User \e[m "
                            echo ""
                            echo ""
-                           read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m You Have Pro User \e[1;91m (Y/N) : \e[0m' option
+                           read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m You Have Online Hacking Members \e[1;91m (Y/N) : \e[0m' option
                            echo""
                            echo""
                            echo""
@@ -953,7 +953,7 @@ elif [ $option = 50 ] || [ $option = 050 ]
 			   sleep 2
 			   echo ""
 			   echo -e $" [\e[1;92m*\e[1;91m]\e[1;93m  2. Unlock Pro Reed This Post : \e[0m   "
-			   echo -e $"     \e[1;32m https://telegram.dog/s/OnlineHacking/1722 \e[0m   "
+			   echo -e $"     \e[1;32m https://telegram.dog/s/OnlineHacking/ \e[0m   "
 			   sleep 2
 			   echo ""
 			   echo -e $" [\e[92m*\e[91m]\e[1;93m 3. Mail Send :\e[1;36m info@onlinehacking.xyz \e[0m  "
