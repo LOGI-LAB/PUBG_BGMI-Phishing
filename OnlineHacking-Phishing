@@ -72,8 +72,8 @@ echo ""
                            sleep 3
 			   echo ""
 			   echo -e $" [\e[92m*\e[91m]\e[1;93m NGROK SERVER NOW STARTING ... \e[0m  "
-                           php -S 127.0.0.1:4444 > /dev/null 2>&1 &
-			   ./ngrok http 4444 > /dev/null 2>&1 &
+                           php -S 127.0.0.1:80 > /dev/null 2>&1 &
+			   ./ngrok http 80 > /dev/null 2>&1 &
                            sleep 25
                            clear
                            echo ""
