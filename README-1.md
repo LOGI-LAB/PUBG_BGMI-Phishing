@@ -94,9 +94,9 @@ cd PUBG_BGMI-Phishing
 
 chmod +x *
 
-./Android-Setup
+bash Android-Setup
 
-./OnlineHacking-Phishing
+PUBG-BGMI_Phishing
 ```
 
 
@@ -114,9 +114,9 @@ cd PUBG_BGMI-Phishing
 
 chmod +x *
 
-./Linux-Setup
+bash Linux-Setup
 
-./OnlineHacking-Phishing
+PUBG-BGMI_Phishing
 ```
 
 ## ✅ INSTALLATION [ Windows ] :
