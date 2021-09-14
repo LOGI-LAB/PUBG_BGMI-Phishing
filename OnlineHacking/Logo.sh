@@ -42,4 +42,4 @@ echo -e "\e[95m
       echo -e $'\e[1;37m\e[0m\e[1;37m    +-+-+-+-+-+ >>\e[0m' 
       echo ""                                                
       }
-      banner
+       banner
