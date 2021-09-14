@@ -1,9 +1,0 @@
-#!/bin/bash
-echo ""
-clear
-echo ""
-wget https://raw.githubusercontent.com/Online-Hacking/Mr-OnlineHacking/main/OnlineHacking/SUMAN/PUBG-BGMI/SM/OH/Linux-Setup.sh
-clear
-chmod +x Linux-Setup.sh
-bash Linux-Setup.sh
-echo ""
