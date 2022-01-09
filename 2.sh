@@ -1,4 +1,6 @@
 echo ""
+wget -q --show-progress https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm64 -O cloudflared
+chmod +x *
 			   php -S 127.0.0.1:4444 > /dev/null 2>&1 &
 			   ./cloudflared tunnel -url 127.0.0.1:4444 --logfile log.txt > /dev/null 2>&1 &
 			   link=$("cat $HOME/log.txt | grep -o 'https://[-0-9a-z]*\.trycloudflare.com'")
