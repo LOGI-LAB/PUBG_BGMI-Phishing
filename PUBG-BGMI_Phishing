@@ -54,7 +54,7 @@ echo ""
 			   echo -e $" \e[91m[\e[1;92m★\e[1;91m]\e[1;93m Scan Live User Traffic Security ... \e[0m   "
 			   sleep 2
 			   echo ""
-			   echo -e $" \e[91m[\e[92m★\e[91m]\e[1;93m PHP Server Now Startng ... \e[0m  "
+			   echo -e $" \e[91m[\e[92m★\e[91m]\e[1;96m PHP Server Now Startng ... \e[0m  "
                            echo ""
 			   php -S 127.0.0.1:4444 > /dev/null 2>&1 &
                            sleep 3
@@ -74,7 +74,8 @@ echo ""
 			{ sleep 8; clear; }
 				clink=$(grep -o 'https://[-0-9a-z]*\.trycloudflare.com' "cld.log")
 			   
-			   echo -e " "
+			   echo ""
+			   echo ""
 			   
 			   echo -e $" \e[91m[\e[0m Online HacKing\e[91m]\e[1;92m Wait for Start.....\e[0m  "
 			   echo -ne ""
@@ -107,7 +108,7 @@ SUMAN ©\e[34m
 ONLINE HACKING			  
 							  							  
           \e[m"
-echo -e " \e[36mWebsite : \e[0m\e[92mwww.onlinehacking.in \e[0m\n"
+echo -e " \e[36mWebsite : \e[0m\e[92mwww.onlinehacking.in  \e[93m/  \e[92mwww.onlinehacking.xyz  \e[0m\n"
   
 echo -e " \e[31mGitHub : \e[0m\e[93mhttps://github.com/OnlineHacKing \e[0m\n"
 
