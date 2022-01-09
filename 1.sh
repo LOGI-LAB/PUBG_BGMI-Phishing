@@ -913,5 +913,3 @@ elif [ $option = 50 ] || [ $option = 050 ]
 		         echo -e "\e[92m[\e[94m!\e[92m]\e[92m Invalid option Try Again !! \e[m "
 		         sleep 2
                          exit
-		         fi
-                         done
