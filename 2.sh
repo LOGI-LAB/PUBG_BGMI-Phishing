@@ -52,5 +52,6 @@ echo -e "\e[35m[+] Connect Online Hacking PUBG BGMI Hacking Server......  \e[m "
 echo
 fi
 sleep 3
+bash 1.sh
 echo
 exit
