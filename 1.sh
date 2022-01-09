@@ -79,7 +79,7 @@ PORT='4444'
 
 
 	echo ""		   
-if [[ $option == *'N'* ]]; then
+if [[ $option == *'1'* ]]; then
 ## Start ngrok
 	echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}http://$HOST:$PORT ${GREEN})"
 	{ sleep 1; }
@@ -99,7 +99,7 @@ if [[ $option == *'N'* ]]; then
 	sleep 3
 exit
 fi
-if [[ $option == *'n'* ]]; then
+if [[ $option == *'2'* ]]; then
 ## Start Cloudflared
 	echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}http://$HOST:$PORT ${GREEN})"
 	{ sleep 1; }
@@ -118,22 +118,8 @@ if [[ $option == *'n'* ]]; then
 	echo -e "\n${RED}[${WHITE}-${RED}]${BLUE} URL 1 : ${GREEN}$cldflr_link"
 	echo -e "\n${RED}[${WHITE}-${RED}]${BLUE} URL 2 : ${GREEN}$mask@$cldflr_link1"
 	sleep 3
-exit
-fi
-if [[ $option == *'n'* ]]; then
-clear
-exit
-fi
-			   
+		   
 	
-	
-	
-	
-	
-	
-			  
-
-                           sleep 3
 			   echo ""
                            echo ""
                            echo ""
