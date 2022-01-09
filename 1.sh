@@ -30,6 +30,7 @@ php="$(ps -efw | grep php | grep -v grep | awk '{print $2}')"
 ngrok="$(ps -efw | grep ngrok | grep -v grep | awk '{print $2}')"
 kill -9 $php
 kill -9 $ngrok
+kill -9 $cloudflared
 clear
 cd /data/data/com.termux/files/usr/bin/OnlineHacking/
 bash Logo.sh
