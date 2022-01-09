@@ -60,9 +60,10 @@ echo ""
                            sleep 3
 			   echo -e $" \e[91m[\e[92m-\e[91m]\e[1;95m Start LocalHost... :  \e[0m http://127.0.0.1:4444 "
 			   echo ""
+			   sleep 2
 			   
 			   
-			   echo -e $" \e[92m[\e[0m-\e[92m]\e[1;95m Launching Cloudflared...\e[0m  "
+			   echo -e $" \e[92m[\e[0m-\e[92m]\e[1;92m Launching Cloudflared...\e[0m  "
 			   echo -ne "  "
    		           if [[ `command -v termux-chroot` ]]; then
 			  sleep 2 && termux-chroot ./cloudflared tunnel -url 127.0.0.1:4444 --logfile cld.log > /dev/null 2>&1 &
@@ -72,8 +73,9 @@ echo ""
 			{ sleep 8; clear; }
 				clink=$(grep -o 'https://[-0-9a-z]*\.trycloudflare.com' "cld.log")
 			   
+			   echo -e " "
 			   
-			   echo -e $" \e[92m[\e[0m-\e[92m]\e[1;95m Launching Ngrok...\e[0m  "
+			   echo -e $" \e[92m[\e[0m-\e[92m]\e[1;92m Launching Ngrok...\e[0m  "
 			   echo -ne ""
                            if [[ `command -v termux-chroot` ]]; then
                            sleep 2 && termux-chroot ./ngrok http 127.0.0.1:4444 > /dev/null 2>&1 & 
