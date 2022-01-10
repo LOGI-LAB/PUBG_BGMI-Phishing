@@ -34,7 +34,7 @@ echo ""
 echo ""
 sleep 7
 cd /data/data/com.termux/files/usr/bin
-rm -rf SUMAN SUMAN1 PUBG BGMI Run-Ngrok OnlineHacking PUBG-BGMI_Phishing ngrok
+rm -rf SUMAN SUMAN1 PUBG BGMI Run-Ngrok OnlineHacking PUBG-BGMI_Phishing ngrok cloudflared
 cd /data/data/com.termux/files/home
 rm -rf PUBG_BGMI-Phishing
 
@@ -62,7 +62,7 @@ echo ""
 echo ""
 sleep 7
 cd /usr/bin
-rm -rf SUMAN SUMAN1 PUBG BGMI Run-Ngrok OnlineHacking PUBG-BGMI_Phishing ngrok
+rm -rf SUMAN SUMAN1 PUBG BGMI Run-Ngrok OnlineHacking PUBG-BGMI_Phishing ngrok cloudflared
 cd /root
 rm -rf PUBG_BGMI-Phishing
 
