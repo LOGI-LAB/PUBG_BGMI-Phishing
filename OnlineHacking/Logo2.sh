@@ -1,15 +1,15 @@
 
 echo -e "\e[1;96m================================================================== > > >\e[m "
 echo " "
-printf "\e[1;31m[\e[0m\e[1;92m01\e[0m\e[1;31m] \e[0m\e[1;37;44m X Suit \e[0m  \e[95m[\e[93mNew\e[95m[\e[0m               \e[1;31m[\e[0m\e[1;92m02\e[0m\e[1;31m] \e[0m\e[1;91;107m Avalanche X-Suit \e[0m  "
+printf "\e[1;31m[\e[0m\e[1;92m01\e[0m\e[1;31m] \e[0m\e[1;37;44m X Suit \e[0m  \e[95m[\e[93mNew\e[95m[\e[0m               \e[1;31m[\e[0m\e[1;92m02\e[0m\e[1;31m] \e[0m\e[1;91;107m Avalanche X-Suit \e[0m  \e[95m[\e[93mNew\e[95m[\e[0m "
 echo
 printf "\e[1;31m\e[0m\e[1;92m\e[0m\e[1;31m \e[0m\e[1;37;44m\e[0m"     
 echo
-printf "\e[1;31m[\e[0m\e[1;92m03\e[0m\e[1;31m] \e[0m\e[1;37;41m MidasBuy \e[0m  \e[95m[\e[93mNew\e[95m[\e[0m             \e[1;31m[\e[0m\e[1;92m04\e[0m\e[1;31m] \e[0m\e[1;34;103m RP Month 6 Event \e[0m "
+printf "\e[1;31m[\e[0m\e[1;92m03\e[0m\e[1;31m] \e[0m\e[1;37;41m MidasBuy \e[0m  \e[95m[\e[93mNew\e[95m[\e[0m             \e[1;31m[\e[0m\e[1;92m04\e[0m\e[1;31m] \e[0m\e[1;34;103m RP Month 6 Event \e[0m  \e[95m[\e[93mNew\e[95m[\e[0m "
 echo
 printf "\e[1;31m\e[0m\e[1;92m\e[0m\e[1;31m \e[0m\e[1;37;44m\e[0m"
 echo
-printf "\e[1;31m[\e[0m\e[1;92m05\e[0m\e[1;31m] \e[0m\e[1;91;107m Collect McLarent Car \e[0m        \e[1;31m[\e[0m\e[1;92m06\e[0m\e[1;31m] \e[0m\e[1;37;41m Collect Car Event \e[0m "
+printf "\e[1;31m[\e[0m\e[1;92m05\e[0m\e[1;31m] \e[0m\e[1;91;107m Collect McLarent Car \e[0m        \e[1;31m[\e[0m\e[1;92m06\e[0m\e[1;31m] \e[0m\e[1;37;41m Collect Car Event \e[0m  \e[95m[\e[93mNew\e[95m[\e[0m "
 echo
 printf "\e[1;31m\e[0m\e[1;92m\e[0m\e[1;31m \e[0m\e[1;37;44m\e[0m"
 echo
