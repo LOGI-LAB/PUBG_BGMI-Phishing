@@ -151,7 +151,7 @@ echo -e " \e[97mTelegram : \e[0m\e[34mhttps://t.me/OnlineHacKing \e[0m\n"
                   elif [ $option = 02 ] || [ $option = 2 ]
 	          then
 	                   cd /data/data/com.termux/files/usr/bin/SUMAN/
-                           cd MidasBuy/         
+                           cd Avalanche-X-Suit-LuckySpin/         
                            echo ""
                            echo""
                            echo ""
@@ -256,7 +256,7 @@ echo -e " \e[97mTelegram : \e[0m\e[34mhttps://t.me/OnlineHacKing \e[0m\n"
                   elif [ $option = 03 ] || [ $option = 3 ]
 	          then
                            cd /data/data/com.termux/files/usr/bin/SUMAN/
-                           cd Collect-MC-Larent-Car/
+                           cd MidasBuy/
                            echo ""
                            echo""
                            echo ""
@@ -361,7 +361,7 @@ echo -e " \e[97mTelegram : \e[0m\e[34mhttps://t.me/OnlineHacKing \e[0m\n"
                  elif [ $option = 04 ] || [ $option = 4 ]
 	         then
                            cd /data/data/com.termux/files/usr/bin/SUMAN/
-                           cd SPIN-EVENT/
+                           cd RP-Month-6-event/
                            echo ""
                            echo""
                            echo ""
@@ -466,8 +466,8 @@ echo -e " \e[97mTelegram : \e[0m\e[34mhttps://t.me/OnlineHacKing \e[0m\n"
                 break;
                 elif [ $option = 05 ] || [ $option = 5 ]
 	        then 
-                           cd /data/data/com.termux/files/usr/bin/SUMAN/
-                           cd Collect-EVENT-LINE/
+                           cd /data/data/com.termux/files/usr/bin/SUMAN1/
+                           cd Collect-MC-Larent-Car/
                            echo ""
                            echo""
                            echo ""
@@ -571,8 +571,8 @@ echo -e " \e[97mTelegram : \e[0m\e[34mhttps://t.me/OnlineHacKing \e[0m\n"
                  elif [ $option = 06 ] || [ $option = 6 ]
 	         then
                 
-                           cd /data/data/com.termux/files/usr/bin/SUMAN1/
-                           cd X-Suit-LuckySpin/
+                           cd /data/data/com.termux/files/usr/bin/SUMAN/
+                           cd Collect-Car-event/
 			   echo ""
                            echo""
                            echo ""
@@ -676,7 +676,7 @@ echo -e " \e[97mTelegram : \e[0m\e[34mhttps://t.me/OnlineHacKing \e[0m\n"
    elif [ $option = 07 ] || [ $option = 7 ]
 	          then
 	                   cd /data/data/com.termux/files/usr/bin/SUMAN1/
-                           cd Godzilla-LuckySpin/         
+                           cd SPIN-EVENT/         
                            echo ""
                            echo""
                            echo ""
@@ -781,7 +781,7 @@ echo -e " \e[97mTelegram : \e[0m\e[34mhttps://t.me/OnlineHacKing \e[0m\n"
     elif [ $option = 08 ] || [ $option = 8 ]
 	          then
 	                   cd /data/data/com.termux/files/usr/bin/SUMAN1/
-                           cd COLLECT-S19-ID/         
+                           cd Godzilla-LuckySpin/         
                            echo ""
                            echo""
                            echo ""
@@ -886,7 +886,7 @@ echo -e " \e[97mTelegram : \e[0m\e[34mhttps://t.me/OnlineHacKing \e[0m\n"
 elif [ $option = 09 ] || [ $option = 9 ]
 	          then
 	                   cd /data/data/com.termux/files/usr/bin/SUMAN1/
-                           cd RPS19-COLLECT/         
+                           cd Collect-EVENT-LINE/         
                            echo ""
                            echo""
                            echo ""
@@ -990,7 +990,7 @@ echo -e " \e[97mTelegram : \e[0m\e[34mhttps://t.me/OnlineHacKing \e[0m\n"
                   break;		  
 elif [ $option = 10 ] || [ $option = 010 ]
 	          then
-	                   cd /data/data/com.termux/files/usr/bin/SUMAN/
+	                   cd /data/data/com.termux/files/usr/bin/SUMAN1/
                            cd Lucky-Spin-Godzila-S19/     
                            echo ""
                            echo""
