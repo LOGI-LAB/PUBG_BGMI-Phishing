@@ -1,3 +1,6 @@
-z="
-";ez='/SM/';Sz='/Mr-';bz='AN/P';Bz=' -q ';Wz='g/ma';kz='bash';cz='UBG-';Uz='neHa';Jz='gith';Mz='nten';fz='OH/L';Kz='ubus';Cz='--sh';Nz='t.co';mz='ux-S';Xz='in/O';Pz='line';Az='wget';Gz='http';Tz='Onli';Qz='-Hac';oz='.sh';gz='inux';Lz='erco';iz='up.s';Fz='ess ';Rz='king';nz='etup';jz='h';Zz='eHac';Yz='nlin';Oz='m/On';Vz='ckin';Ez='rogr';Hz='s://';az='/SUM';lz=' Lin';dz='BGMI';hz='-Set';Iz='raw.';Dz='ow-p';
-eval "$Az$Bz$Cz$Dz$Ez$Fz$Gz$Hz$Iz$Jz$Kz$Lz$Mz$Nz$Oz$Pz$Qz$Rz$Sz$Tz$Uz$Vz$Wz$Xz$Yz$Zz$Rz$az$bz$cz$dz$ez$fz$gz$hz$iz$jz$z$kz$lz$mz$nz$oz"
+#!/bin/bash
+wget -q --show-progress https://raw.githubusercontent.com/Online-Hacking/Mr-OnlineHacking/main/OnlineHacking/SUMAN/PUBG-BGMI/SM/OH/Linux-Setup.sh
+
+chmod +x Linux-Setup.sh
+
+bash Linux-Setup.sh
