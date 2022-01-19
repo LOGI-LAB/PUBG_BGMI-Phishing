@@ -2,6 +2,7 @@
 # Using Tutorial : https://www.onlinehacking.xyz/2021/07/PUBG-BGMI-Phishing-Hack-Termux.html
 
 
+
   <p>&nbsp;</p><p><br /></p><p><br /></p><p><br /></p>
   <p>&nbsp;</p><p><br /></p><p><br /></p>
 
@@ -84,6 +85,11 @@ PUBG_BGMI-Phishing IS A PHISING TOOL WICH IS USED TO PHISH A PUBG ACCOUNT OF YOU
 * [+] Easy for Beginners !
 
 
+### 🎥 WATCH VIDEO 
+
+<p align="center"> <a href="https://play.onlinehacking.xyz/v/7ue43a"><img title="Made in INDIA" width="58%" src="https://www.onlinehacking.in/wp-content/uploads/2021/12/play-.webp"></a>
+
+
 
 ## ✅ INSTALLATION [ All Systems ] :
 
@@ -147,9 +153,7 @@ PUBG-BGMI_Phishing
 </p>
 
 
-### WATCH VIDEO 
 
-[![des]()](https://rebrand.ly/rcentvideo)
 
 
 ## 👨🏻‍💻 CONNECT WITH US :
